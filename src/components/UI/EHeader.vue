@@ -45,7 +45,7 @@ export default {
 .logo-nav {
     display: flex;
     justify-content: space-between;
-    gap:104px ;
+    gap:clamp(74px, 7vw, 104px);
 }
 header {
     display: flex;
@@ -57,7 +57,7 @@ header {
 }
 nav {
     display: flex;
-    gap: 54px;
+    gap: clamp(39px, 5vw,54px) ;
     align-items: center;
 }
 .logo {
