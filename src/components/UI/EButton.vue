@@ -10,6 +10,7 @@ export default {
 
 <style scoped>
     button {
+        cursor: pointer;
         padding: 17px 31px;
         border-radius: 12px;
         background: #6C5FBC;
