@@ -1,0 +1,37 @@
+.baner {
+  background: url("../assets/bg-baner.png") no-repeat;
+  background-size: cover;
+  padding-top: 49px;
+  margin-top: 85px;
+  padding-bottom: 49px;
+  &__items {
+    display: flex;
+    justify-content: center;
+  }
+  div {
+    &:last-child {
+      border: none;
+    }
+    padding-right: 66px;
+    padding-left: 66px;
+    border-right: 1px solid #6b5fb1 ;
+    color:  #FFF;
+    text-align: center;
+    font-family: 'Public Sans',sans-serif;
+    font-size: 43.2px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px; /* 125% */
+    p {
+      margin-top: 11px;
+      align-items: center;
+      color: #C5BFED;
+      text-align: center;
+      font-family: 'Inter',sans-serif;
+      font-size: 14.4px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 21.6px; /* 150% */
+    }
+  }
+}
