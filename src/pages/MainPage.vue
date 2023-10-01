@@ -63,6 +63,72 @@
                 </EButton>
             </div>
         </div>
+        <div class="restaurants">
+            <h1>Our Top <span>Restaurants</span></h1>
+            <div class="restaurants__cards">
+                <div class="restaurants__card">
+                    <img src="../assets/the-chicken-king.png" alt="">
+                    <div class="restaurants__info">
+                        <h6>Healthy</h6>
+                        <h3>The Chicken King</h3>
+                        <div class="restaurants__feedback">
+                            <div>
+                                <span>24min •</span>
+                                <img src="../assets/Star1.svg" alt="star">
+                                <span>4.8</span>
+                            </div>
+                            <img src="../assets/Bookmark.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurants__card">
+                    <img src="../assets/image.png" alt="">
+                    <div class="restaurants__info">
+                        <h6>Trending</h6>
+                        <h3>The Burger King</h3>
+                        <div class="restaurants__feedback">
+                            <div>
+                                <span>24min •</span>
+                                <img src="../assets/Star1.svg" alt="star">
+                                <span>4.8</span>
+                            </div>
+                            <img src="../assets/Bookmark.svg" alt="bookmark">
+                        </div>
+                    </div>
+                </div>
+                <div class="restaurants__card">
+                    <img src="../assets/the-chicken-king.png" alt="">
+                    <div class="restaurants__info">
+                        <h6>Healthy</h6>
+                        <h3>The Chicken King</h3>
+                        <div class="restaurants__feedback">
+                            <div>
+                                <span>24min •</span>
+                                <img src="../assets/Star1.svg" alt="star">
+                                <span>4.8</span>
+                            </div>
+                            <img src="../assets/Bookmark.svg" alt="bookmark">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href=""> View All <img src="../assets/arrow1.svg" alt="arrow"></a>
+        </div>
+        <div class="purchases">
+            <div class="purchases__info">
+                <h1>Control <span>Purchases</span>  Via Dashboard</h1>
+                <div class="purchases__cards">
+                    <div class="purchases__card">
+                        <img src="../assets/food-image.png" alt="food">
+                        <div>
+                            <h4>Chicken Hell</h4>
+                            <span>On The Way</span>
+                        </div>
+                        <span>3:09 PM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -77,5 +143,42 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.purchases {
+    margin-top: 103px;
+    h1 {
+        max-width: 560px;
+    }
+    &__card {
+        border-radius: 12px;
+        background: #FFF;
+        max-width: 345px;
+        display: flex;
+        align-items: center;
+        padding: 4px 17px 4px 17px;
+        justify-content: space-between;
+        div {
+            h4 {
+                color: #323142;
+                font-size: 19px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 140%; /* 26.69px */
+            }
+            span {
+                color: #323142;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 140%; /* 16.857px */
+            }
+        }
+        span {
+            color:  #ACADB9;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 140%; /* 18.262px */
+        }
+    }
+}
 </style>
