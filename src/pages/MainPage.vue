@@ -116,7 +116,7 @@
         </div>
         <div class="purchases">
             <div class="purchases__info">
-                <h1>Control <span>Purchases</span>  Via Dashboard</h1>
+                <h1>Control <span>Purchases</span> Via Dashboard</h1>
                 <div class="purchases__cards">
                     <div class="purchases__card">
                         <img src="../assets/food-image.png" alt="food">
@@ -126,59 +126,132 @@
                         </div>
                         <span>3:09 PM</span>
                     </div>
+                    <div class="purchases__card">
+                        <img src="../assets/swe-dish.png" alt="food">
+                        <div>
+                            <h4>Swe Dish</h4>
+                            <span>Delivered</span>
+                        </div>
+                        <span>Yesterday</span>
+                    </div>
+                    <div class="purchases__card">
+                        <img src="../assets/fish-hell-veg.png" alt="food">
+                        <div>
+                            <h4>Fish Hell Veg</h4>
+                            <span class="purchases__cancelled">Cancelled</span>
+                        </div>
+                        <span>Yesterday</span>
+                    </div>
+                </div>
+            </div>
+            <div class="purchases__purchases-info">
+                <div class="purchases__time">
+                    <h4>Purchases</h4>
+                    <div class="purchases__dropdown">
+                        <select v-model="value">
+                            <option value="This month">This month</option>
+                            <option value="This week" >This week</option>
+                            <option value="This day">This day</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="purchases__purchases">
+                    <div v-if="value === 'This month'" >
+                        <div>
+                            <div>
+                                <img src="../assets/icon.svg" alt="icon">
+                                <span>
+                                Expense
+                                <span>Increased By 10%</span>
+                                </span>
+                            </div>
+                            <p>$409.00</p>
+                        </div>
+                        <img src="../assets/divider.png" alt="">
+                    </div>
+                    <div v-if="value === 'This month'">
+                        <div>
+                            <div>
+                                <img src="../assets/icon1.svg" alt="icon">
+                                <span>
+                                Vocher Usage
+                                <span>Increased By 5%</span>
+                                </span>
+                            </div>
+                            <p>$45.78</p>
+                        </div>
+                        <img src="../assets/divider1.png" alt="">
+                    </div>
+
+                    <div v-if="value === 'This week'">
+                        <div>
+                            <div>
+                                <img src="../assets/icon.svg" alt="icon">
+                                <span>
+                                Expense
+                                <span>Increased By 10%</span>
+                                </span>
+                            </div>
+                            <p>$40.00</p>
+                        </div>
+                        <img src="../assets/divider2.png" alt="">
+                    </div>
+                    <div v-if="value === 'This week'">
+                        <div>
+                            <div>
+                                <img src="../assets/icon1.svg" alt="icon">
+                                <span>
+                                Vocher Usage
+                                <span>Increased By 5%</span>
+                                </span>
+                            </div>
+                            <p>$10.38</p>
+                        </div>
+                        <img src="../assets/divider3.png" alt="">
+                    </div>
+
+                    <div v-if="value === 'This day'">
+                        <div>
+                            <div>
+                                <img src="../assets/icon.svg" alt="icon">
+                                <span>
+                                Expense
+                                <span>Increased By 10%</span>
+                                </span>
+                            </div>
+                            <p>$20.24</p>
+                        </div>
+                        <img src="../assets/divider4.png" alt="">
+                    </div>
+                    <div v-if="value === 'This day'">
+                        <div>
+                            <div>
+                                <img src="../assets/icon1.svg" alt="icon">
+                                <span>
+                                Vocher Usage
+                                <span>Increased By 5%</span>
+                                </span>
+                            </div>
+                            <p>$4.43</p>
+                        </div>
+                        <img src="../assets/divider5.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </template>
 
-<script>
+<script setup>
 import EHeader from "../components/UI/EHeader.vue";
 import EButton from "../components/UI/EButton.vue";
+import {ref} from "vue";
 
-export default {
-    name: "MainPage",
-    components: {EButton, EHeader}
-}
+let value = ref('This month')
+
+
 </script>
 
 <style lang="scss" scoped>
-.purchases {
-    margin-top: 103px;
-    h1 {
-        max-width: 560px;
-    }
-    &__card {
-        border-radius: 12px;
-        background: #FFF;
-        max-width: 345px;
-        display: flex;
-        align-items: center;
-        padding: 4px 17px 4px 17px;
-        justify-content: space-between;
-        div {
-            h4 {
-                color: #323142;
-                font-size: 19px;
-                font-style: normal;
-                font-weight: 600;
-                line-height: 140%; /* 26.69px */
-            }
-            span {
-                color: #323142;
-                font-size: 12px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 140%; /* 16.857px */
-            }
-        }
-        span {
-            color:  #ACADB9;
-            font-size: 13px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 140%; /* 18.262px */
-        }
-    }
-}
+
 </style>
