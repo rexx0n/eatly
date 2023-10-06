@@ -138,7 +138,7 @@
                 <div class="dishes__card">
                     <img @click="heart = 2" v-if="heart !== 2" src="../assets/heart.svg" alt="heart">
                     <img @click="heart = 3" v-else src="../assets/heart2.png" alt="heart">
-                    <img  src="../assets/food-image4.png" alt="foodimage">
+                    <img src="../assets/food-image4.png" alt="foodimage">
                     <div class="dishes__info">
                         <span class="dishes__healthy dishes__healthy--trending">Trending</span>
                         <h4>Swe Dish</h4>
@@ -156,7 +156,7 @@
                 <div class="dishes__card">
                     <img @click="heart = 4" v-if="heart !== 4" src="../assets/heart.svg" alt="heart">
                     <img @click="heart = 5" v-else src="../assets/heart2.png" alt="heart">
-                    <img  src="../assets/food-image5.png" alt="foodimage">
+                    <img src="../assets/food-image5.png" alt="foodimage">
                     <div class="dishes__info">
                         <span class="dishes__healthy dishes__healthy--supreme">Supreme</span>
                         <h4>Swe Dish</h4>
@@ -335,12 +335,53 @@
                 </div>
             </div>
         </div>
+        <div class="customer">
+            <h1><span>Customer</span> Say </h1>
+            <div class="customer__slider">
+                <div class="customer__line">
+                    <div class="customer__card">
+                        <div>
+                            <div>
+                                <img src="../assets/pic.png" alt="">
+                                <span>
+                                    Alexander R.
+                                    <span>01 Year With Us </span>
+                                </span>
+                            </div>
+                            <img src="../assets/path-173.svg" alt="">
+                        </div>
+                        <p>“ Online invoice payment helps companies save time, are faster and save maximum effort for the clients and save maximum effort. Online invoice payment helps companies save time ”</p>
+                        <img src="../assets/stars.png" alt="stars">
+                    </div>
+                    <div class="customer__card">
+                        <p>“ Online invoice payment helps companies save time, are faster and save maximum effort for the clients and save maximum effort. Online invoice payment helps companies save time ”</p>
+                        <img src="../assets/stars.png" alt="stars">
+                    </div>
+                    <div class="customer__card">
+                        <p>“ Online invoice payment helps companies save time, are faster and save maximum effort for the clients and save maximum effort. Online invoice payment helps companies save time ”</p>
+                        <img src="../assets/stars.png" alt="stars">
+                    </div>
+                </div>
+            </div>
+            <div class="customer__baner">
+                <div>
+                    <h1>GET 50%</h1>
+                    <div>
+                        <input type="text" name="" id="" placeholder="Enter Your Email Address">
+                        <EButton>SUBSCRIBE</EButton>
+                    </div>
+                </div>
+                <img src="../assets/food-image-6.png" alt="">
+            </div>
+        </div>
     </div>
+    <EFooter></EFooter>
 </template>
 
 <script setup>
 import EHeader from "../components/UI/EHeader.vue";
 import EButton from "../components/UI/EButton.vue";
+import EFooter from "../components/UI/EFooter.vue";
 import {ref} from "vue";
 
 let value = ref('This month')
@@ -350,138 +391,5 @@ let heart = ref(true)
 </script>
 
 <style lang="scss" scoped>
-.dishes {
-  margin-top: 100px;
 
-  h1 {
-    text-align: center;
-  }
-
-  &__cards {
-    display: flex;
-    margin-top: 78px;
-    justify-content: space-between;
-  }
-
-  &__card {
-    img:first-child {
-        cursor: pointer;
-      margin-top: 24px;
-      margin-right: 22px;
-      align-self: end;
-      max-width: 22px;
-      max-height: 18px;
-    }
-
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    max-width: 225px;
-    width: 100%;
-    border-radius: 34.5px;
-    border: 1.4px solid #F4F4F6;
-    background: #FFF;
-    box-shadow: 7px 82px 41px 0px rgba(229, 229, 229, 0.70);
-  }
-
-  &__healthy {
-    color: #DAA31A;
-    font-size: 11.4px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding: 2px 7px;
-    border-radius: 4.828px;
-    background: #F7EDD0;
-      &--trending {
-          color: #FB471D;
-          background: #F7C5BA;
-      }
-      &--supreme {
-          color:#309D5B ;
-          background:  #33ac6466;
-      }
-  }
-
-  &__info {
-    padding: 0 27px 30px 23px;
-    margin-top: -20px;
-
-    h4 {
-      color: #323142;
-      font-size: 23px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: 37px; /* 162.5% */
-    }
-  }
-
-  &__feedback {
-    display: flex;
-    align-items: center;
-
-    span {
-      color: #8E97A6;
-      font-family: 'Manrope', sans-serif;
-      font-size: 17px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 23px; /* 133.333% */
-    }
-  }
-
-  &__price {
-    display: flex;
-    justify-content: space-between;
-
-    button {
-      background: #323142;
-      padding-right: 10px;
-      padding-left: 10px;
-      border: none;
-      border-radius: 10px;
-      color: white;
-      font-size: 29px;
-      cursor: pointer;
-
-      &:hover {
-        background: #5c5a76;
-      }
-
-      &:active {
-        background: #676589;
-      }
-    }
-
-    h3 {
-      color: #323142;
-      font-family: 'Manrope', sans-serif;
-      font-size: 26px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 40px; /* 155.556% */
-      span {
-        color: #8E97A6;
-        font-size: 19px;
-      }
-    }
-  }
-    a {
-        color: #ACADB9;
-        display: flex;
-        gap: 20px;
-        justify-content: flex-end;
-        align-items: center;
-        font-size: 20px;
-        font-style: normal;
-        text-decoration: none;
-        margin-top: 65px;
-        font-weight: 500;
-        line-height: 45px; /* 225.921% */
-        letter-spacing: -0.1px;
-        &:hover {
-            color: #888993;
-        }
-    }
-}
 </style>

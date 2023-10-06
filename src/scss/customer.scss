@@ -1,0 +1,105 @@
+.customer {
+  margin-top: 116px;
+  margin-bottom: 216px;
+  &__baner {
+    display: flex;
+    justify-content: space-between;
+    margin-top:217px;
+    padding: 37px 72px 61px 66px;
+    border-radius: 30px;
+    background: url("../assets/mask-group3.png") no-repeat;
+    background-size: cover;
+    img {
+      margin-bottom: -100px;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      > div {
+        padding: 7px 6px 7px 22px;
+        display: flex;
+        gap: 80px;
+        border-radius: 14.234px;
+        flex-direction: row;
+        align-items: center;
+        background: #DEDCEF;
+        box-shadow: 0px 7.25333px 45.33334px 0px rgba(0, 0, 0, 0.10);
+        input {
+          border: none;
+          background: none;
+          color: #878787;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: 0.488px;
+          text-transform: capitalize;
+        }
+      }
+    }
+    h1 {
+      color: #DEDCEF;
+      font-size: 70px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+    }
+  }
+  h1 {
+    text-align: center;
+  }
+  &__slider {
+    margin-top: 80px;
+    overflow: hidden;
+  }
+  &__line {
+    display: flex;
+    width: 1665px;
+    justify-content: space-between;
+  }
+  &__card {
+    padding: 38px 43px 38px 43px;
+    max-width: 528px;
+    background: #fff;
+    border-radius: 15px;
+    > img {
+      margin-top: 39px;
+    }
+    p {
+      color: #636363;
+      font-size: 18px;
+      font-style: italic;
+      margin-top: 32px;
+      font-weight: 400;
+      line-height: 26px; /* 145.094% */
+    }
+    > div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      > div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      span {
+        display: flex;
+        flex-direction: column;
+        color: #030314;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 31px; /* 150% */
+        span {
+          color: #5E5D5D;
+          font-family: 'Quicksand',sans-serif;
+          font-size: 16.715px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 26.117px; /* 156.25% */
+        }
+      }
+    }
+  }
+}
