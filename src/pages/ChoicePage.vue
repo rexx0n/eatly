@@ -19,16 +19,67 @@
                         </div>
                     </div>
                     <div class="choice__slider-lines">
-                        <div :class="{choice__active: count === 1, choice__notActive: count !== 1}" ></div>
-                        <div :class="{choice__active: count === 2, choice__notActive: count !== 2}" ></div>
-                        <div :class="{choice__active: count === 3, choice__notActive: count !== 3}" ></div>
+                        <div :class="{choice__active: count === 1, choice__notActive: count !== 1}"></div>
+                        <div :class="{choice__active: count === 2, choice__notActive: count !== 2}"></div>
+                        <div :class="{choice__active: count === 3, choice__notActive: count !== 3}"></div>
+                    </div>
+                </div>
+                <div class="choice__select">
+                    <div class="choice__input">
+                        <img src="../assets/search.svg" alt="search">
+                        <input type="search" name="" id="" placeholder="Search">
+                    </div>
+                    <div class="choice__btns">
+                        <button @click="choice = 1" :class="{choiceActive: choice === 1}">Food</button>
+                        <button @click="choice = 2" :class="{choiceActive: choice === 2}">Resturent</button>
                     </div>
                 </div>
             </div>
-            <div>
-
+            <div class="choice__category">
+                <h4>Category</h4>
+                <div class="choice__icons">
+                    <div @click="icon = 1" :class="{choice__icon_pizza_active: icon === 1}"
+                         class="choice__icon choice__icon--pizza">
+                        <img src="../assets/pizza.svg" alt="pizza">
+                        <span>Pizza</span>
+                    </div>
+                    <div @click="icon = 2" :class="{choice__icon_asian_active: icon === 2}"
+                         class="choice__icon choice__icon--asian">
+                        <img src="../assets/hotdog.svg" alt="">
+                        <span>Asian</span>
+                    </div>
+                    <div @click="icon = 3" :class="{choice__icon_donat_active: icon === 3}"
+                         class="choice__icon choice__icon--donat">
+                        <img src="../assets/doughnut.svg" alt="">
+                        <span>Donat</span>
+                    </div>
+                    <div @click="icon = 4" :class="{choice__icon_ice_active: icon === 4}"
+                         class="choice__icon choice__icon--ice">
+                        <img src="../assets/icecream.svg" alt="">
+                        <span>Ice</span>
+                    </div>
+                </div>
+                <h4>Sort By</h4>
+                <div class="choice__sort">
+                    <span>Recomended <span>Fast Delivery</span></span>
+                    <span>Most Popular <span></span></span>
+                </div>
+                <h4>Price</h4>
+                <div class="choice__price">
+                    <input type="range" name="" id="" min="0" max="1000">
+                    <span>
+                        <span>$0</span>
+                        <span>$25</span>
+                        <span>$50</span>
+                        <span>$100</span>
+                        <span>$500</span>
+                        <span>$1000</span>
+                    </span>
+                    <EButton>Apply</EButton>
+                </div>
             </div>
         </div>
+
     </div>
     <EFooter></EFooter>
 </template>
@@ -37,9 +88,12 @@
 import EHeader from "../components/UI/EHeader.vue";
 import EFooter from "../components/UI/EFooter.vue";
 import {onMounted, ref} from "vue";
+import EButton from "../components/UI/EButton.vue";
 
 let translate = ref(0)
 let count = ref(1)
+let choice = ref(2)
+let icon = ref(2)
 
 function slider() {
     if (count.value <= 2) {
@@ -50,7 +104,8 @@ function slider() {
         count.value = 1
     }
 }
-setInterval(()=>{
+
+setInterval(() => {
     slider()
 }, 6000)
 
@@ -61,73 +116,5 @@ onMounted(() => {
 </script>
 
 <style scoped lang="scss">
-.choice {
-  margin-top: 120px;
-    margin-bottom: 120px;
-    &__slider-lines {
-        display: flex;
-        gap: 7.5px;
-        justify-content: center;
-        margin-top: 49px;
-    }
-    &__active {
-        transition: 200ms;
-        height: 6px;
-        width: 61px;
-        background: #6C5FBC;
-        border-radius: 3px;
-    }
-    &__notActive {
-        transition: 200ms;
-        width: 30px;
-        height: 5px;
-        background: #DBD9EE;
-        border-radius: 3px;
-    }
-  &__slider {
-    overflow: hidden;
-    max-width: 832px;
-  }
 
-  &__slider-line {
-    display: flex;
-    gap: 20px;
-    transition: 1s;
-  }
-
-  &__item {
-    background: url("../assets/mask-group4.png") no-repeat;
-    background-size: cover;
-    padding: 30px 36px 29px 58px;
-    display: flex;
-    border-radius: 19px;
-
-    img {
-      margin-bottom: -67px;
-    }
-
-    h1 {
-      display: flex;
-      flex-direction: column;
-      color: #F7F8FA;
-      font-size: 75px;
-      font-style: normal;
-      font-weight: 800;
-      line-height: normal;
-
-      span {
-        color: #7C6FCD;
-        font-size: 87px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 30px;
-      }
-    }
-
-    img {
-      max-width: 254px;
-      max-height: 256px;
-    }
-  }
-}
 </style>

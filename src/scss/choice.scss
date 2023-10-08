@@ -1,0 +1,261 @@
+.choice {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  &__price {
+    button {
+      width: 100%;
+      margin-top: 38px;
+    }
+    input {
+      max-width: 303px;
+      width: 100%;
+    }
+    span {
+      display: flex;
+      gap:31px;
+      span {
+        color: #C2C3CB;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 29.629px; /* 280.53% */
+      }
+    }
+  }
+  &__sort {
+    margin-top: 13px;
+    margin-bottom: 25px;
+
+    span {
+      margin-bottom: 4px;
+      display: flex;
+      justify-content: space-between;
+      color: #ACADB9;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 29px; /* 187.02% */
+      span {
+        color: #6C5FBC;
+      }
+    }
+  }
+
+  &__icons {
+    display: flex;
+    margin-bottom: 25px;
+    margin-top: 17px;
+    justify-content: space-between;
+  }
+
+  &__category {
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 6px 10px 28.5px 0.95202px rgba(108, 95, 188, 0.12);
+    padding: 32px 32px 39px 32px;
+    max-width: 377px;
+    width: 100%;
+
+    h4 {
+      color: #323142;
+      font-size: 21px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 29px; /* 134.654% */
+    }
+  }
+
+  &__icon {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px 11px 15px;
+    border-radius: 20px;
+    justify-content: space-between;
+
+    &_asian_active {
+      box-shadow: 0px 0px 0px 4px rgba(251, 71, 29, 0.50);
+    }
+
+    &_pizza_active {
+      box-shadow: 0px 0px 0px 4px #dfaf34;
+    }
+
+    &_donat_active {
+      box-shadow: 0px 0px 0px 4px #ad7d04;
+    }
+
+    &_ice_active {
+      box-shadow: 0px 0px 0px 4px #2a4fb1;
+    }
+
+    span {
+      text-align: center;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    &--pizza {
+      background: #FFDE8A;;
+
+      span {
+        margin-top: 17px;
+        color: #D69900;
+      }
+    }
+
+    &--asian {
+      background: #F7C5BA;;
+      padding: 11px;
+
+      span {
+        margin-top: 12px;
+        color: #FB471D;
+      }
+    }
+
+    &--donat {
+      background: #EDB66B;
+
+      span {
+        margin-top: 18px;
+        color: #E28B14;
+      }
+    }
+
+    &--ice {
+      background: #5A85FF;
+      padding: 11px 23px;
+
+      span {
+        margin-top: 15px;
+        color: #002073;
+      }
+    }
+  }
+
+  &__btns {
+    margin-top: 35px;
+
+    button:first-child {
+      border-radius: 15.138px 0px 0px 15.138px;
+      padding: 21px 164px;
+    }
+
+    .choiceActive {
+      background: #6C5FBC;
+      color: #F3F5F6;
+    }
+
+    button {
+      border-radius: 0px 15.138px 15.138px 0px;
+      padding: 21px 142px;
+      text-align: center;
+      font-size: 19.463px;
+      color: #6C5FBC;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      border: 2.171px solid #6C5FBC;
+      background: #F3F5F6;
+      box-shadow: 0px 21.78474px 48.41055px 0px rgba(211, 209, 216, 0.25)
+    }
+  }
+
+  &__select {
+    margin-top: 88px;
+  }
+
+  &__input {
+    display: flex;
+    gap: 29px;
+    background: #EDEDED;
+    max-width: 757px;
+    border-radius: 15px;
+    padding: 21px 0 19px 28px;
+
+    input {
+      border: none;
+      background: none;
+      color: #AAABBA;
+      font-size: 20.5px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 117.5%; /* 24.139px */
+      letter-spacing: -0.411px;
+    }
+  }
+
+  &__slider-lines {
+    display: flex;
+    gap: 7.5px;
+    justify-content: center;
+    margin-top: 49px;
+  }
+
+  &__active {
+    transition: 200ms;
+    height: 6px;
+    width: 61px;
+    background: #6C5FBC;
+    border-radius: 3px;
+  }
+
+  &__notActive {
+    transition: 200ms;
+    width: 30px;
+    height: 5px;
+    background: #DBD9EE;
+    border-radius: 3px;
+  }
+
+  &__slider {
+    overflow: hidden;
+    max-width: 832px;
+  }
+
+  &__slider-line {
+    display: flex;
+    gap: 20px;
+    transition: 1s;
+  }
+
+  &__item {
+    background: url("../assets/mask-group4.png") no-repeat;
+    background-size: cover;
+    padding: 30px 36px 29px 58px;
+    display: flex;
+    border-radius: 19px;
+
+    img {
+      margin-bottom: -67px;
+    }
+
+    h1 {
+      display: flex;
+      flex-direction: column;
+      color: #F7F8FA;
+      font-size: 75px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+
+      span {
+        color: #7C6FCD;
+        font-size: 87px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 30px;
+      }
+    }
+
+    img {
+      max-width: 254px;
+      max-height: 256px;
+    }
+  }
+}
