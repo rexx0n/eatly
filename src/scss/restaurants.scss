@@ -4,20 +4,6 @@
   border-bottom: 1px solid #CBCBCB;;
   a {
     margin-top: 66px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    justify-content: flex-end;
-    color: #ACADB9;
-    font-size: 20px;
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 45.184px; /* 225.921% */
-    transition: 300ms;
-    &:hover {
-      color: #888993;
-    }
   }
   &__info {
     padding: 11px 27px 18px 34px;

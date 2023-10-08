@@ -66,12 +66,12 @@
         <div class="restaurants">
             <h1>Our Top <span>Restaurants</span></h1>
             <ERestaurants></ERestaurants>
-            <a href=""> View All <img src="../assets/arrow1.svg" alt="arrow"></a>
+            <EView></EView>
         </div>
         <div class="dishes">
             <h1>Our Top <span>Dishes</span></h1>
             <EDishes></EDishes>
-            <a href=""> View All <img src="../assets/arrow1.svg" alt="arrow"></a>
+            <EView></EView>
         </div>
         <div class="purchases">
             <div class="purchases__info">
@@ -248,6 +248,7 @@ import EFooter from "../components/UI/EFooter.vue";
 import {ref} from "vue";
 import EDishes from "../components/UI/EDishes.vue";
 import ERestaurants from "../components/UI/ERestaurants.vue";
+import EView from "../components/UI/EView.vue";
 
 let value = ref('This month')
 

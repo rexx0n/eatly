@@ -79,6 +79,20 @@
                 </div>
             </div>
         </div>
+        <div class="restaurants">
+            <div class="title">
+                <h1>Our Top <span>Restaurants</span></h1>
+                <EView></EView>
+            </div>
+            <ERestaurants></ERestaurants>
+        </div>
+        <div class="dishes">
+            <div class="title">
+                <h1>Our Top <span>Dishes</span></h1>
+                <EView></EView>
+            </div>
+            <EDishes></EDishes>
+        </div>
 
     </div>
     <EFooter></EFooter>
@@ -89,6 +103,9 @@ import EHeader from "../components/UI/EHeader.vue";
 import EFooter from "../components/UI/EFooter.vue";
 import {onMounted, ref} from "vue";
 import EButton from "../components/UI/EButton.vue";
+import EView from "../components/UI/EView.vue";
+import ERestaurants from "../components/UI/ERestaurants.vue";
+import EDishes from "../components/UI/EDishes.vue";
 
 let translate = ref(0)
 let count = ref(1)
@@ -116,5 +133,17 @@ onMounted(() => {
 </script>
 
 <style scoped lang="scss">
+h1 {
+  font-size: 35px;
+}
+
+.title {
+  display: flex;
+align-items: center;
+    justify-content: space-between;
+    a {
+        margin-top: 0;
+    }
+}
 
 </style>
