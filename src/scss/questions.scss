@@ -1,0 +1,54 @@
+.questions {
+  margin-top: 140px;
+  margin-bottom: 174px;
+
+  &__question {
+    padding: 29px 0 15px 0;
+    border-bottom: 1px solid #ADADAD;;
+    transition: 300ms;
+
+    p {
+      padding-left: 14px;
+      color: #ACADB9;
+      animation-duration: 1s;
+      animation-name: fadein;
+    }
+  }
+
+  &__questions {
+    margin-top: 90px;
+    transition: 300ms;
+
+    h3 {
+      padding-left: 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #323142;
+      font-size: 23px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 59.24px; /* 252.982% */
+    }
+  }
+
+  button {
+    border-radius: 20px;
+    max-height: 30px;
+    padding: 1px 8px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 45px;
+  }
+
+  &__title {
+    gap: 17px;
+    max-width: 532px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: auto;
+  }
+}
