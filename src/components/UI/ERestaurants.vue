@@ -11,7 +11,7 @@
                         <img src="../../assets/Star1.svg" alt="star">
                         <span>4.8</span>
                     </div>
-                    <img src="../../assets/Bookmark.svg" alt="">
+                    <img @click="toNext()" src="../../assets/Bookmark.svg" alt="">
                 </div>
             </div>
         </div>
@@ -26,7 +26,7 @@
                         <img src="../../assets/Star1.svg" alt="star">
                         <span>4.8</span>
                     </div>
-                    <img src="../../assets/Bookmark.svg" alt="bookmark">
+                    <img @click="toNext()" src="../../assets/Bookmark.svg" alt="bookmark">
                 </div>
             </div>
         </div>
@@ -41,17 +41,21 @@
                         <img src="../../assets/Star1.svg" alt="star">
                         <span>4.8</span>
                     </div>
-                    <img src="../../assets/Bookmark.svg" alt="bookmark">
+                    <img @click="toNext()" src="../../assets/Bookmark.svg" alt="bookmark">
                 </div>
             </div>
         </div>
     </div>
 </template>
 
-<script>
-export default {
-    name: "ERestaurants"
-}
+<script setup>
+ import router from "../../router/router.js";
+
+ function toNext() {
+     router.push({
+         name:'food'
+     })
+ }
 </script>
 
 <style scoped>

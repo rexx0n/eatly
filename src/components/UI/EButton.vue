@@ -24,7 +24,7 @@ export default {
         text-transform: capitalize;
     }
     button:hover {
-        transition: 300ms;
+        transition: all .1s ease-in;
         border: 1.5px solid #6C5FBC;
         background: none;
         color:#6C5FBC;

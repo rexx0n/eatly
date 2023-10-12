@@ -202,7 +202,11 @@ onMounted(() => {
 </script>
 
 <style scoped lang="scss">
-
+.questions {
+    button {
+        padding: 1px 8px;
+    }
+}
 
 h1 {
   font-size: 35px;
