@@ -226,17 +226,8 @@
                     </div>
                 </div>
             </div>
-            <div class="customer__baner">
-                <div>
-                    <h1>GET 50%</h1>
-                    <div>
-                        <input type="text" name="" id="" placeholder="Enter Your Email Address">
-                        <EButton>SUBSCRIBE</EButton>
-                    </div>
-                </div>
-                <img src="../assets/food-image-6.png" alt="">
-            </div>
         </div>
+        <EBaner></EBaner>
     </div>
     <EFooter></EFooter>
 </template>
@@ -249,6 +240,7 @@ import {ref} from "vue";
 import EDishes from "../components/UI/EDishes.vue";
 import ERestaurants from "../components/UI/ERestaurants.vue";
 import EView from "../components/UI/EView.vue";
+import EBaner from "../components/UI/EBaner.vue";
 
 let value = ref('This month')
 
@@ -257,5 +249,7 @@ let value = ref('This month')
 </script>
 
 <style lang="scss" scoped>
-
+.baner-component {
+    margin-bottom: 216px;
+}
 </style>

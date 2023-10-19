@@ -1,12 +1,12 @@
 <template>
   <header>
       <div class="logo-nav">
-          <div class="logo">
+          <div @click="toMain" class="logo">
               <img src="../../assets/logo.svg" alt="eatly">
               <span>eatly</span>
           </div>
           <nav>
-              <a href="">Menu</a>
+              <a @click="toMenu" href="">Menu</a>
               <a href="">Blog</a>
               <a href="">Pricing</a>
               <a href="">Contact</a>
@@ -19,12 +19,19 @@
   </header>
 </template>
 
-<script>
+<script setup>
 import EButton from "./EButton.vue";
+import router from "../../router/router.js";
 
-export default {
-    name: "EHeader",
-    components: {EButton}
+function toMenu() {
+ router.push({
+     name:'choice'
+ })
+}
+function toMain() {
+    router.push({
+        name:'main'
+    })
 }
 </script>
 
@@ -46,6 +53,7 @@ export default {
     display: flex;
     justify-content: space-between;
     gap:clamp(74px, 7vw, 104px);
+    cursor: pointer;
 }
 header {
     display: flex;

@@ -14,7 +14,7 @@
                 </div>
                 <div class="dishes__price">
                     <h3>$12<span>.99</span></h3>
-                    <button @click="toNextPage">+</button>
+                    <button @click="toMap" >+</button>
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@
                 </div>
                 <div class="dishes__price">
                     <h3>$19<span>.99</span></h3>
-                    <button @click="toNextPage">+</button>
+                    <button @click="toMap" >+</button>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@
                 </div>
                 <div class="dishes__price">
                     <h3>$19<span>.99</span></h3>
-                    <button @click="toNextPage">+</button>
+                    <button @click="toMap" >+</button>
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
                 </div>
                 <div class="dishes__price">
                     <h3>$12<span>.99</span></h3>
-                    <button @click="toNextPage">+</button>
+                    <button @click="toMap">+</button>
                 </div>
             </div>
         </div>
@@ -86,7 +86,7 @@
                 </div>
                 <div class="dishes__price">
                     <h3>$19<span>.99</span></h3>
-                    <button @click="toNextPage">+</button>
+                    <button @click="toMap" >+</button>
                 </div>
             </div>
         </div>
@@ -98,10 +98,9 @@ import {ref} from "vue";
 import router from "../../router/router.js";
 
 let heart = ref(true)
-
-function toNextPage() {
+function toMap() {
     router.push({
-        name: 'choice'
+        name:'map'
     })
 }
 </script>

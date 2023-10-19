@@ -1,0 +1,246 @@
+<template>
+    <div class="container">
+        <EHeader></EHeader>
+        <div class="map">
+            <img src="../assets/map.png" alt="">
+            <div class="map__card">
+                <div class="map__name">
+                    <img src="../assets/rectangle4194.png" alt="">
+                    <span>David Smith
+                        <span>Food Rider</span>
+                    </span>
+                </div>
+                <div class="map__info">
+                    <img src="../assets/locatin.svg" alt="">
+                    <div>
+                        <span>
+                            Your Address
+                            <span>Horizenal Road Stree 1178 California, USA</span>
+                        </span>
+                        <span>
+                            Delivery Time
+                            <span>15 Minutes</span>
+                        </span>
+                    </div>
+                    <EButton>Pending</EButton>
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <div class="product__cards">
+                <div class="product__card">
+                    <div class="product__info">
+                        <img src="../assets/food-image7.png" alt="">
+                        <span>
+                            Chicken Hell
+                            <span>$12.99</span>
+                        </span>
+                    </div>
+                    <div class="product__counter">
+                        <div class="product__amount">
+                            <button @click="minus('first')" class="product__button-minus">-</button>
+                            <p>{{food['first']}}</p>
+                            <button @click="plus('first')" class="product__button-plus">+</button>
+                        </div>
+                        <span>${{(food['first'] * 12.99).toFixed(2)}}</span>
+                    </div>
+                </div>
+                <div class="product__card">
+                    <div class="product__info">
+                        <img src="../assets/food-image8.png" alt="">
+                        <span>
+                            Chicken Hell
+                            <span>$19.99</span>
+                        </span>
+                    </div>
+                    <div class="product__counter">
+                        <div class="product__amount">
+                            <button @click="minus('second')" class="product__button-minus">-</button>
+                            <p>{{food['second']}}</p>
+                            <button @click="plus('second')" class="product__button-plus">+</button>
+                        </div>
+                        <span>${{(food['second'] * 19.99).toFixed(2)}}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product__pay">
+                <div class="product__input">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="22" viewBox="0 0 30 22" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.46925 22C1.11199 22 0.0117187 20.8997 0.0117187 19.5425L0.0117187 2.69082C0.0117187 1.33357 1.11199 0.233294 2.46925 0.233294L27.6714 0.233294C29.1514 0.233294 29.9672 1.95226 29.0313 3.09873L26.4983 6.20158L29.6044 10.0066C30.1318 10.6527 30.1319 11.5806 29.6044 12.2267L26.4983 16.0317L29.0313 19.1346C29.9672 20.281 29.1514 22 27.6714 22L2.46925 22ZM2.11817 19.5425C2.11817 19.7364 2.27536 19.8935 2.46925 19.8935L26.9316 19.8935L24.6853 17.1418C24.1579 16.4957 24.1579 15.5677 24.6853 14.9216L27.7914 11.1166L24.6853 7.31165C24.1579 6.66557 24.1579 5.73759 24.6853 5.09152L26.9316 2.33975L2.46925 2.33975C2.27536 2.33975 2.11817 2.49693 2.11817 2.69082L2.11817 19.5425Z" fill="#ACADB9"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.49073 17.7871C8.90905 17.7871 8.4375 17.3156 8.4375 16.7339L8.4375 5.49945C8.4375 4.91777 8.90905 4.44623 9.49073 4.44623C10.0724 4.44623 10.544 4.91777 10.544 5.49945L10.544 16.7339C10.544 17.3156 10.0724 17.7871 9.49073 17.7871Z" fill="#ACADB9"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.7031 17.7871C13.1214 17.7871 12.6499 17.3156 12.6499 16.7339L12.6499 5.49945C12.6499 4.91777 13.1214 4.44623 13.7031 4.44623C14.2848 4.44623 14.7564 4.91777 14.7564 5.49945L14.7564 16.7339C14.7564 17.3156 14.2848 17.7871 13.7031 17.7871Z" fill="#ACADB9"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M17.916 17.7871C17.3343 17.7871 16.8628 17.3156 16.8628 16.7339V5.49945C16.8628 4.91777 17.3343 4.44623 17.916 4.44623C18.4977 4.44623 18.9692 4.91777 18.9692 5.49945V16.7339C18.9692 17.3156 18.4977 17.7871 17.916 17.7871Z" fill="#ACADB9"/>
+                        </svg>
+                        <input type="text" placeholder="Apply Coupon">
+                    </div>
+                    <EButton>Apply</EButton>
+                </div>
+                <div class="product__total">
+                    <div>
+                        <span>Subtotal</span>
+                        <span> ${{ ((food['second'] * 19.99) + (food['first'] * 12.99)).toFixed(2) }} </span>
+                    </div>
+                    <div>
+                        <span>Delivery</span>
+                        <span> $3.59 </span>
+                    </div>
+                    <div class="product__end">
+                        <span>Total</span>
+                        <span>${{(((food['second'] * 19.99) + (food['first'] * 12.99)) +3.59).toFixed(2)}}</span>
+                    </div>
+                    <EButton>Review Payment</EButton>
+                </div>
+            </div>
+        </div>
+    </div>
+    <EFooter></EFooter>
+</template>
+
+<script setup>
+import EHeader from "../components/UI/EHeader.vue";
+import EFooter from "../components/UI/EFooter.vue";
+import EButton from "../components/UI/EButton.vue";
+import {ref} from "vue";
+let food = ref({
+    'first':1,
+    'second':1,
+})
+
+function minus (item) {
+    if (food.value[item] === 1) {
+        return
+    }
+    else {
+        food.value[item]--
+    }
+}
+
+function plus(item) {
+    food.value[item]++
+}
+</script>
+
+<style scoped lang="scss">
+.product {
+    margin: auto;
+    max-width: 681px;
+    &__total {
+        margin-top: 36px;
+        button {
+            margin-top: 62px;
+            width: 100%;
+        }
+        .product__end {
+            padding-top:29px ;
+            border: none;
+            span {
+                opacity: 1;
+                font-size: 25px;
+                font-weight: 600;
+            }
+        }
+        div {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px dashed #ACADB9;
+            padding-top:16px;
+            padding-bottom: 8px;
+        }
+        span {
+            opacity: 0.7;
+            color: #323142;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 117.5%; /* 23.5px */
+            letter-spacing: -0.4px;
+        }
+    }
+    &__input {
+        display: flex;
+        margin-top:89px;
+        div {
+            background: #F1F1F1;;
+            padding: 24px 25px 25px 21px;
+            width: 100%;
+            margin-right: 8px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            border-radius: 10px;
+        }
+        input {
+            background: none;
+            border: none;
+            color:  #C2C3CB;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 117.5%; /* 21.15px */
+            letter-spacing: -0.36px;
+        }
+    }
+    &__cards {
+        margin-top: 199px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__amount {
+        display: flex;
+        gap: 11px;
+    }
+    &__card {
+        display: flex;
+        border-radius: 12px;
+        background: #FFF;
+        justify-content: space-between;
+    }
+    &__counter {
+        padding: 23px 59px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p {
+            color: #323142;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%; /* 24.619px */
+        }
+        button {
+            border-radius:10px;
+            border: 1px solid #323142;
+            cursor: pointer;
+        }
+    }
+    &__button-minus {
+        padding: 6px 12px;
+        background: none;
+        color: #323142;
+    }
+    &__button-plus {
+        padding: 5px 10px;
+        background: #323142;
+        color:#FFF;
+    }
+    &__info {
+        display: flex;
+        gap: 14px;
+        span {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: #323142;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 140%; /* 30.8px */
+            span {
+                font-size: 18px;
+            }
+        }
+    }
+}
+</style>
