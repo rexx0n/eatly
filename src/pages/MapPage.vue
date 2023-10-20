@@ -93,6 +93,7 @@
                 </div>
             </div>
         </div>
+        <EBaner class="baner1"></EBaner>
     </div>
     <EFooter></EFooter>
 </template>
@@ -102,6 +103,7 @@ import EHeader from "../components/UI/EHeader.vue";
 import EFooter from "../components/UI/EFooter.vue";
 import EButton from "../components/UI/EButton.vue";
 import {ref} from "vue";
+import EBaner from "../components/UI/EBaner.vue";
 let food = ref({
     'first':1,
     'second':1,
@@ -122,6 +124,10 @@ function plus(item) {
 </script>
 
 <style scoped lang="scss">
+.baner1 {
+    margin-top: 255px;
+    margin-bottom: 171px;
+}
 .product {
     margin: auto;
     max-width: 681px;

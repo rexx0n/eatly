@@ -25,7 +25,6 @@ export default defineComponent({
 .baner-component {
     display: flex;
     justify-content: space-between;
-    margin-top:217px;
     padding: 37px 72px 61px 66px;
     border-radius: 30px;
     background: url("../../assets/mask-group3.png") no-repeat;
