@@ -7,7 +7,7 @@
                     <span>eatly</span>
                 </div>
                 <nav>
-                    <a href="">Blog</a>
+                    <a  href="">Blog</a>
                     <a href="">Pricing</a>
                     <a href="">About Us</a>
                     <a href="">Contact</a>

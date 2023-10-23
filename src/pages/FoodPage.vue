@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <EHeader></EHeader>
+        <EHeader active="menu"></EHeader>
         <div class="chicken">
             <div class="chicken__card">
                 <img src="../assets/chicken5.png" alt="">

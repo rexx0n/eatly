@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <EHeader></EHeader>
+        <EHeader active="menu"></EHeader>
         <div class="choice">
             <div>
                 <div class="choice__slider">
