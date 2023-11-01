@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <EHeader></EHeader>
+        <EHeader active="pricing"></EHeader>
         <div class="our-pricing">
             <div class="our-pricing__title">
                 <h1>
@@ -62,6 +62,265 @@
                     <p>/month</p>
                 </div>
             </div>
+            <div class="pricing__core">
+                <h3></h3>
+                <div>
+                    <ul>
+                        <li>
+                            Support 24/7
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                    <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                    <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </li>
+                        <li>
+                            Fast Delivery
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                    <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                    <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </li>
+                        <li>
+                            20% Off Food Deals
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                    <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                    <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </li>
+                        <li>
+                            Transaction History
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                    <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                    <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </li>
+                        <li>
+                            Weekend Deals
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                    <circle cx="17.5002" cy="17.5" r="17.5" fill="#EB3F5E"/>
+                                    <path d="M11.6718 25.0056C11.2469 25.0056 10.822 24.8491 10.4866 24.5136C9.83812 23.8651 9.83812 22.7918 10.4866 22.1433L23.1435 9.48637C23.792 8.83788 24.8654 8.83788 25.5139 9.48637C26.1624 10.1349 26.1624 11.2082 25.5139 11.8567L12.857 24.5136C12.5439 24.8491 12.0967 25.0056 11.6718 25.0056Z" fill="#F9F9F9"/>
+                                    <path d="M24.3287 25.0056C23.9038 25.0056 23.4789 24.8491 23.1435 24.5136L10.4866 11.8567C9.83812 11.2082 9.83812 10.1349 10.4866 9.48637C11.1351 8.83788 12.2085 8.83788 12.857 9.48637L25.5139 22.1433C26.1624 22.7918 26.1624 23.8651 25.5139 24.5136C25.1784 24.8491 24.7536 25.0056 24.3287 25.0056Z" fill="#F9F9F9"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                    <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </li>
+                        <li>
+                            Dashboard Access
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                    <circle cx="17.5002" cy="17.5" r="17.5" fill="#EB3F5E"/>
+                                    <path d="M11.6718 25.0056C11.2469 25.0056 10.822 24.8491 10.4866 24.5136C9.83812 23.8651 9.83812 22.7918 10.4866 22.1433L23.1435 9.48637C23.792 8.83788 24.8654 8.83788 25.5139 9.48637C26.1624 10.1349 26.1624 11.2082 25.5139 11.8567L12.857 24.5136C12.5439 24.8491 12.0967 25.0056 11.6718 25.0056Z" fill="#F9F9F9"/>
+                                    <path d="M24.3287 25.0056C23.9038 25.0056 23.4789 24.8491 23.1435 24.5136L10.4866 11.8567C9.83812 11.2082 9.83812 10.1349 10.4866 9.48637C11.1351 8.83788 12.2085 8.83788 12.857 9.48637L25.5139 22.1433C26.1624 22.7918 26.1624 23.8651 25.5139 24.5136C25.1784 24.8491 24.7536 25.0056 24.3287 25.0056Z" fill="#F9F9F9"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                    <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </li>
+                        <li>
+                            Premium Group Access
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                    <circle cx="17.5002" cy="17.5" r="17.5" fill="#EB3F5E"/>
+                                    <path d="M11.6718 25.0056C11.2469 25.0056 10.822 24.8491 10.4866 24.5136C9.83812 23.8651 9.83812 22.7918 10.4866 22.1433L23.1435 9.48637C23.792 8.83788 24.8654 8.83788 25.5139 9.48637C26.1624 10.1349 26.1624 11.2082 25.5139 11.8567L12.857 24.5136C12.5439 24.8491 12.0967 25.0056 11.6718 25.0056Z" fill="#F9F9F9"/>
+                                    <path d="M24.3287 25.0056C23.9038 25.0056 23.4789 24.8491 23.1435 24.5136L10.4866 11.8567C9.83812 11.2082 9.83812 10.1349 10.4866 9.48637C11.1351 8.83788 12.2085 8.83788 12.857 9.48637L25.5139 22.1433C26.1624 22.7918 26.1624 23.8651 25.5139 24.5136C25.1784 24.8491 24.7536 25.0056 24.3287 25.0056Z" fill="#F9F9F9"/>
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                    <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pricing__buttons">
+                <EButton>START FREE</EButton>
+                <EButton>START PRO</EButton>
+            </div>
+        </div>
+        <div class="purchases">
+            <div class="purchases__info">
+                <h1>Control <span>Purchases</span> Via Dashboard</h1>
+                <div class="purchases__cards">
+                    <div class="purchases__card">
+                        <img src="../assets/food-image.png" alt="food">
+                        <div>
+                            <h4>Chicken Hell</h4>
+                            <span>On The Way</span>
+                        </div>
+                        <span>3:09 PM</span>
+                    </div>
+                    <div class="purchases__card">
+                        <img src="../assets/swe-dish.png" alt="food">
+                        <div>
+                            <h4>Swe Dish</h4>
+                            <span>Delivered</span>
+                        </div>
+                        <span>Yesterday</span>
+                    </div>
+                    <div class="purchases__card">
+                        <img src="../assets/fish-hell-veg.png" alt="food">
+                        <div>
+                            <h4>Fish Hell Veg</h4>
+                            <span class="purchases__cancelled">Cancelled</span>
+                        </div>
+                        <span>Yesterday</span>
+                    </div>
+                </div>
+            </div>
+            <div class="purchases__purchases-info">
+                <div class="purchases__time">
+                    <h4>Purchases</h4>
+                    <div class="purchases__dropdown">
+                        <select v-model="value">
+                            <option value="This month">This month</option>
+                            <option value="This week">This week</option>
+                            <option value="This day">This day</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="purchases__purchases">
+                    <div v-if="value === 'This month'">
+                        <div>
+                            <div>
+                                <img src="../assets/icon.svg" alt="icon">
+                                <span>
+                                Expense
+                                <span>Increased By 10%</span>
+                                </span>
+                            </div>
+                            <p>$409.00</p>
+                        </div>
+                        <img src="../assets/divider.png" alt="">
+                    </div>
+                    <div v-if="value === 'This month'">
+                        <div>
+                            <div>
+                                <img src="../assets/icon1.svg" alt="icon">
+                                <span>
+                                Vocher Usage
+                                <span>Increased By 5%</span>
+                                </span>
+                            </div>
+                            <p>$45.78</p>
+                        </div>
+                        <img src="../assets/divider1.png" alt="">
+                    </div>
+
+                    <div v-if="value === 'This week'">
+                        <div>
+                            <div>
+                                <img src="../assets/icon.svg" alt="icon">
+                                <span>
+                                Expense
+                                <span>Increased By 10%</span>
+                                </span>
+                            </div>
+                            <p>$40.00</p>
+                        </div>
+                        <img src="../assets/divider2.png" alt="">
+                    </div>
+                    <div v-if="value === 'This week'">
+                        <div>
+                            <div>
+                                <img src="../assets/icon1.svg" alt="icon">
+                                <span>
+                                Vocher Usage
+                                <span>Increased By 5%</span>
+                                </span>
+                            </div>
+                            <p>$10.38</p>
+                        </div>
+                        <img src="../assets/divider3.png" alt="">
+                    </div>
+
+                    <div v-if="value === 'This day'">
+                        <div>
+                            <div>
+                                <img src="../assets/icon.svg" alt="icon">
+                                <span>
+                                Expense
+                                <span>Increased By 10%</span>
+                                </span>
+                            </div>
+                            <p>$20.24</p>
+                        </div>
+                        <img src="../assets/divider4.png" alt="">
+                    </div>
+                    <div v-if="value === 'This day'">
+                        <div>
+                            <div>
+                                <img src="../assets/icon1.svg" alt="icon">
+                                <span>
+                                Vocher Usage
+                                <span>Increased By 5%</span>
+                                </span>
+                            </div>
+                            <p>$4.43</p>
+                        </div>
+                        <img src="../assets/divider5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="customer">
+            <h1><span>Customer</span> Say </h1>
+            <div class="customer__slider">
+                <div class="customer__line">
+                    <div class="customer__card">
+                        <div>
+                            <div>
+                                <img src="../assets/pic.png" alt="">
+                                <span>
+                                    Alexander R.
+                                    <span>01 Year With Us </span>
+                                </span>
+                            </div>
+                            <img src="../assets/path-173.svg" alt="">
+                        </div>
+                        <p>“ Online invoice payment helps companies save time, are faster and save maximum effort for the clients and save maximum effort. Online invoice payment helps companies save time ”</p>
+                        <img src="../assets/stars.png" alt="stars">
+                    </div>
+                    <div class="customer__card">
+                        <p>“ Online invoice payment helps companies save time, are faster and save maximum effort for the clients and save maximum effort. Online invoice payment helps companies save time ”</p>
+                        <img src="../assets/stars.png" alt="stars">
+                    </div>
+                    <div class="customer__card">
+                        <p>“ Online invoice payment helps companies save time, are faster and save maximum effort for the clients and save maximum effort. Online invoice payment helps companies save time ”</p>
+                        <img src="../assets/stars.png" alt="stars">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <EFooter></EFooter>
@@ -70,15 +329,46 @@
 <script setup>
 import EHeader from "../components/UI/EHeader.vue";
 import EFooter from "../components/UI/EFooter.vue";
+import EButton from "../components/UI/EButton.vue";
+import {ref} from "vue";
 
+let value = ref('This month')
 </script>
 
 <style scoped lang="scss">
 .pricing {
   background: #ffffff;
   border-radius: 15px;
+    box-shadow: 0px 0px 51px #3231422e;
   padding: 51px 0 54px 0;
-
+    &__buttons {
+        display: flex;
+        padding: 44px 103px;
+        justify-content:flex-end;
+        gap: 228px;
+    }
+&__core {
+    padding: 50px 215px 62px 65px;
+    border-bottom: 1px solid #CBCBCB;;
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        li {
+            list-style-type: none;
+            color: #606060;
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 32px; /* 145.455% */
+            display: flex;
+            justify-content: space-between;
+            div {
+                display: flex;
+                gap: 338px;
+            }
+        }
+    }
+}
   &__price {
     display: flex;
     justify-content: flex-end;
