@@ -168,8 +168,8 @@
                 <button @click="toLeft">←</button>
                 <button @click="toRight">→</button>
             </div>
-
         </div>
+        <EQuestions></EQuestions>
     </div>
     <EFooter></EFooter>
 </template>
@@ -179,6 +179,7 @@ import EFooter from "../components/UI/EFooter.vue";
 import EHeader from "../components/UI/EHeader.vue";
 import EBaner from "../components/UI/EBaner.vue";
 import {ref} from "vue";
+import EQuestions from "../components/UI/EQuestions.vue";
 let count = 0
 let translate = ref(39)
 function toRight () {
