@@ -1,0 +1,141 @@
+.pricing {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 0px 51px #3231422e;
+  padding: 51px 0 54px 0;
+
+  &__buttons {
+    display: flex;
+    padding: 44px 103px;
+    justify-content: flex-end;
+    gap: 228px;
+  }
+
+  &__core {
+    padding: 50px 215px 62px 65px;
+    border-bottom: 1px solid #CBCBCB;;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 35px;
+
+      li {
+        list-style-type: none;
+        color: #606060;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 32px; /* 145.455% */
+        display: flex;
+        justify-content: space-between;
+
+        div {
+          display: flex;
+          gap: 338px;
+        }
+      }
+    }
+  }
+
+  &__price {
+    display: flex;
+    justify-content: flex-end;
+    gap: 261px;
+    padding-right: 138px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #CBCBCB;
+
+    div {
+      display: flex;
+
+      span {
+        display: flex;
+        color: #272E35;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px; /* 133.333% */
+        span {
+          font-size: 64px;
+          line-height: 72px; /* 112.5% */
+        }
+      }
+
+      p {
+        color: #6E757C;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+      }
+    }
+  }
+
+  &__title {
+    padding: 0 92px 40px 65px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #CBCBCB;
+    gap: 225px;
+
+    &-main {
+      gap: 25px;
+      margin-right: 203px;
+
+      h2 {
+        font-size: 40px;
+      }
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 35px;
+
+      h2 {
+        color: #282828;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 120%; /* 42px */
+      }
+
+      span {
+        color: #6E757C;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        max-width: 158px;
+      }
+    }
+  }
+}
+.our-pricing {
+  margin-top: 66px;
+  padding-top: 43px;
+
+  h1 {
+    color: #F9F9F9;
+    font-size: 40px;
+  }
+
+  &__title {
+    display: flex;
+    padding-top: 45px;
+    padding-bottom: 213px;
+    justify-content: end;
+    background: #5C4EAE;;
+
+    > svg {
+      align-self: end;
+      margin-left: 355px;
+      margin-right: 121px;
+    }
+  }
+
+  &__img {
+    margin-top: -291px;
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -69,94 +69,125 @@
                         <li>
                             Support 24/7
                             <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"
+                                     fill="none">
                                     <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
-                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"
+                                     fill="none">
                                     <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
-                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
                         </li>
                         <li>
                             Fast Delivery
                             <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"
+                                     fill="none">
                                     <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
-                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"
+                                     fill="none">
                                     <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
-                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
                         </li>
                         <li>
                             20% Off Food Deals
                             <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"
+                                     fill="none">
                                     <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
-                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"
+                                     fill="none">
                                     <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
-                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
                         </li>
                         <li>
                             Transaction History
                             <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"
+                                     fill="none">
                                     <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
-                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"
+                                     fill="none">
                                     <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
-                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
                         </li>
                         <li>
                             Weekend Deals
                             <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"
+                                     fill="none">
                                     <circle cx="17.5002" cy="17.5" r="17.5" fill="#EB3F5E"/>
-                                    <path d="M11.6718 25.0056C11.2469 25.0056 10.822 24.8491 10.4866 24.5136C9.83812 23.8651 9.83812 22.7918 10.4866 22.1433L23.1435 9.48637C23.792 8.83788 24.8654 8.83788 25.5139 9.48637C26.1624 10.1349 26.1624 11.2082 25.5139 11.8567L12.857 24.5136C12.5439 24.8491 12.0967 25.0056 11.6718 25.0056Z" fill="#F9F9F9"/>
-                                    <path d="M24.3287 25.0056C23.9038 25.0056 23.4789 24.8491 23.1435 24.5136L10.4866 11.8567C9.83812 11.2082 9.83812 10.1349 10.4866 9.48637C11.1351 8.83788 12.2085 8.83788 12.857 9.48637L25.5139 22.1433C26.1624 22.7918 26.1624 23.8651 25.5139 24.5136C25.1784 24.8491 24.7536 25.0056 24.3287 25.0056Z" fill="#F9F9F9"/>
+                                    <path d="M11.6718 25.0056C11.2469 25.0056 10.822 24.8491 10.4866 24.5136C9.83812 23.8651 9.83812 22.7918 10.4866 22.1433L23.1435 9.48637C23.792 8.83788 24.8654 8.83788 25.5139 9.48637C26.1624 10.1349 26.1624 11.2082 25.5139 11.8567L12.857 24.5136C12.5439 24.8491 12.0967 25.0056 11.6718 25.0056Z"
+                                          fill="#F9F9F9"/>
+                                    <path d="M24.3287 25.0056C23.9038 25.0056 23.4789 24.8491 23.1435 24.5136L10.4866 11.8567C9.83812 11.2082 9.83812 10.1349 10.4866 9.48637C11.1351 8.83788 12.2085 8.83788 12.857 9.48637L25.5139 22.1433C26.1624 22.7918 26.1624 23.8651 25.5139 24.5136C25.1784 24.8491 24.7536 25.0056 24.3287 25.0056Z"
+                                          fill="#F9F9F9"/>
                                 </svg>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"
+                                     fill="none">
                                     <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
-                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
                         </li>
                         <li>
                             Dashboard Access
                             <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"
+                                     fill="none">
                                     <circle cx="17.5002" cy="17.5" r="17.5" fill="#EB3F5E"/>
-                                    <path d="M11.6718 25.0056C11.2469 25.0056 10.822 24.8491 10.4866 24.5136C9.83812 23.8651 9.83812 22.7918 10.4866 22.1433L23.1435 9.48637C23.792 8.83788 24.8654 8.83788 25.5139 9.48637C26.1624 10.1349 26.1624 11.2082 25.5139 11.8567L12.857 24.5136C12.5439 24.8491 12.0967 25.0056 11.6718 25.0056Z" fill="#F9F9F9"/>
-                                    <path d="M24.3287 25.0056C23.9038 25.0056 23.4789 24.8491 23.1435 24.5136L10.4866 11.8567C9.83812 11.2082 9.83812 10.1349 10.4866 9.48637C11.1351 8.83788 12.2085 8.83788 12.857 9.48637L25.5139 22.1433C26.1624 22.7918 26.1624 23.8651 25.5139 24.5136C25.1784 24.8491 24.7536 25.0056 24.3287 25.0056Z" fill="#F9F9F9"/>
+                                    <path d="M11.6718 25.0056C11.2469 25.0056 10.822 24.8491 10.4866 24.5136C9.83812 23.8651 9.83812 22.7918 10.4866 22.1433L23.1435 9.48637C23.792 8.83788 24.8654 8.83788 25.5139 9.48637C26.1624 10.1349 26.1624 11.2082 25.5139 11.8567L12.857 24.5136C12.5439 24.8491 12.0967 25.0056 11.6718 25.0056Z"
+                                          fill="#F9F9F9"/>
+                                    <path d="M24.3287 25.0056C23.9038 25.0056 23.4789 24.8491 23.1435 24.5136L10.4866 11.8567C9.83812 11.2082 9.83812 10.1349 10.4866 9.48637C11.1351 8.83788 12.2085 8.83788 12.857 9.48637L25.5139 22.1433C26.1624 22.7918 26.1624 23.8651 25.5139 24.5136C25.1784 24.8491 24.7536 25.0056 24.3287 25.0056Z"
+                                          fill="#F9F9F9"/>
                                 </svg>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"
+                                     fill="none">
                                     <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
-                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
                         </li>
                         <li>
                             Premium Group Access
                             <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"
+                                     fill="none">
                                     <circle cx="17.5002" cy="17.5" r="17.5" fill="#EB3F5E"/>
-                                    <path d="M11.6718 25.0056C11.2469 25.0056 10.822 24.8491 10.4866 24.5136C9.83812 23.8651 9.83812 22.7918 10.4866 22.1433L23.1435 9.48637C23.792 8.83788 24.8654 8.83788 25.5139 9.48637C26.1624 10.1349 26.1624 11.2082 25.5139 11.8567L12.857 24.5136C12.5439 24.8491 12.0967 25.0056 11.6718 25.0056Z" fill="#F9F9F9"/>
-                                    <path d="M24.3287 25.0056C23.9038 25.0056 23.4789 24.8491 23.1435 24.5136L10.4866 11.8567C9.83812 11.2082 9.83812 10.1349 10.4866 9.48637C11.1351 8.83788 12.2085 8.83788 12.857 9.48637L25.5139 22.1433C26.1624 22.7918 26.1624 23.8651 25.5139 24.5136C25.1784 24.8491 24.7536 25.0056 24.3287 25.0056Z" fill="#F9F9F9"/>
+                                    <path d="M11.6718 25.0056C11.2469 25.0056 10.822 24.8491 10.4866 24.5136C9.83812 23.8651 9.83812 22.7918 10.4866 22.1433L23.1435 9.48637C23.792 8.83788 24.8654 8.83788 25.5139 9.48637C26.1624 10.1349 26.1624 11.2082 25.5139 11.8567L12.857 24.5136C12.5439 24.8491 12.0967 25.0056 11.6718 25.0056Z"
+                                          fill="#F9F9F9"/>
+                                    <path d="M24.3287 25.0056C23.9038 25.0056 23.4789 24.8491 23.1435 24.5136L10.4866 11.8567C9.83812 11.2082 9.83812 10.1349 10.4866 9.48637C11.1351 8.83788 12.2085 8.83788 12.857 9.48637L25.5139 22.1433C26.1624 22.7918 26.1624 23.8651 25.5139 24.5136C25.1784 24.8491 24.7536 25.0056 24.3287 25.0056Z"
+                                          fill="#F9F9F9"/>
                                 </svg>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"
+                                     fill="none">
                                     <circle cx="17.5" cy="17.5" r="17.5" fill="#6C5FBC"/>
-                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 17.3333L15.3333 22.6667L26 12" stroke="#F9F9F9" stroke-width="3.675"
+                                          stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </div>
                         </li>
@@ -308,15 +339,18 @@
                             </div>
                             <img src="../assets/path-173.svg" alt="">
                         </div>
-                        <p>“ Online invoice payment helps companies save time, are faster and save maximum effort for the clients and save maximum effort. Online invoice payment helps companies save time ”</p>
+                        <p>“ Online invoice payment helps companies save time, are faster and save maximum effort for
+                            the clients and save maximum effort. Online invoice payment helps companies save time ”</p>
                         <img src="../assets/stars.png" alt="stars">
                     </div>
                     <div class="customer__card">
-                        <p>“ Online invoice payment helps companies save time, are faster and save maximum effort for the clients and save maximum effort. Online invoice payment helps companies save time ”</p>
+                        <p>“ Online invoice payment helps companies save time, are faster and save maximum effort for
+                            the clients and save maximum effort. Online invoice payment helps companies save time ”</p>
                         <img src="../assets/stars.png" alt="stars">
                     </div>
                     <div class="customer__card">
-                        <p>“ Online invoice payment helps companies save time, are faster and save maximum effort for the clients and save maximum effort. Online invoice payment helps companies save time ”</p>
+                        <p>“ Online invoice payment helps companies save time, are faster and save maximum effort for
+                            the clients and save maximum effort. Online invoice payment helps companies save time ”</p>
                         <img src="../assets/stars.png" alt="stars">
                     </div>
                 </div>
@@ -336,138 +370,5 @@ let value = ref('This month')
 </script>
 
 <style scoped lang="scss">
-.pricing {
-  background: #ffffff;
-  border-radius: 15px;
-    box-shadow: 0px 0px 51px #3231422e;
-  padding: 51px 0 54px 0;
-    &__buttons {
-        display: flex;
-        padding: 44px 103px;
-        justify-content:flex-end;
-        gap: 228px;
-    }
-&__core {
-    padding: 50px 215px 62px 65px;
-    border-bottom: 1px solid #CBCBCB;;
-    ul {
-        display: flex;
-        flex-direction: column;
-        gap: 35px;
-        li {
-            list-style-type: none;
-            color: #606060;
-            font-size: 22px;
-            font-weight: 500;
-            line-height: 32px; /* 145.455% */
-            display: flex;
-            justify-content: space-between;
-            div {
-                display: flex;
-                gap: 338px;
-            }
-        }
-    }
-}
-  &__price {
-    display: flex;
-    justify-content: flex-end;
-    gap: 261px;
-      padding-right: 138px;
-      padding-top: 40px;
-      padding-bottom: 40px;
-      border-bottom: 1px solid #CBCBCB;
-    div {
-      display: flex;
 
-      span {
-          display: flex;
-        color: #272E35;
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 32px; /* 133.333% */
-        span {
-          font-size: 64px;
-          line-height: 72px; /* 112.5% */
-        }
-      }
-
-      p {
-        color: #6E757C;
-        font-family: 'Inter', sans-serif;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px; /* 150% */
-      }
-    }
-  }
-
-  &__title {
-    padding: 0 92px 40px 65px;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #CBCBCB;
-    gap: 225px;
-    &-main {
-      gap: 25px;
-      margin-right: 203px;
-
-      h2 {
-        font-size: 40px;
-      }
-    }
-
-    div {
-      display: flex;
-      flex-direction: column;
-      gap: 35px;
-
-      h2 {
-        color: #282828;
-        font-size: 35px;
-        font-weight: 600;
-        line-height: 120%; /* 42px */
-      }
-
-      span {
-        color: #6E757C;
-        font-family: 'Inter', sans-serif;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px; /* 150% */
-        max-width: 158px;
-      }
-    }
-  }
-}
-
-.our-pricing {
-  margin-top: 66px;
-  padding-top: 43px;
-
-  h1 {
-    color: #F9F9F9;
-    font-size: 40px;
-  }
-
-  &__title {
-    display: flex;
-    padding-top: 45px;
-    padding-bottom: 213px;
-    justify-content: end;
-    background: #5C4EAE;;
-
-    > svg {
-      align-self: end;
-      margin-left: 355px;
-      margin-right: 121px;
-    }
-  }
-
-  &__img {
-    margin-top: -291px;
-    display: flex;
-    justify-content: center;
-  }
-}
 </style>
