@@ -40,45 +40,5 @@ export default {
         line-height: 130%; /* 37.082px */
     }
 }
-.footer {
-  background: #EAEAEA;
-    padding: 96px 90px 83px 103px;
-   &__social {
-       margin-top: 57px;
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-   }
-    &__info {
-        display: flex;
-        justify-content: space-between;
-        border-bottom: 1px solid #cfcfcf;
-        padding-bottom: 29px;
-        nav {
-            display: flex;
-            gap: clamp(50px, 5vw, 70px);
-            a {
-                color: #999;
-                font-family: 'Inter',sans-serif;
-                font-size: 18px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 27px; /* 150% */
-                text-transform: capitalize;
-                text-decoration: none;
-                &:hover {
-                    color: #b9b9b9;
-                }
-            }
-        }
-    }
-   span {
-       color: #999;
-       font-family: 'Inter',sans-serif;
-       font-size: 17px;
-       font-style: normal;
-       font-weight: 500;
-       line-height: 25px; /* 147.059% */
-   }
-}
+
 </style>
