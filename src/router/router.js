@@ -7,6 +7,7 @@ import MapPage from "../pages/MapPage.vue";
 import PricingPage from "../pages/PricingPage.vue";
 import ArticlesPage from "../pages/ArticlesPage.vue";
 import InfoPage from "../pages/InfoPage.vue";
+import ContactPage from "../pages/ContactPage.vue";
 
 
 
@@ -18,6 +19,7 @@ const routes = [
     {path: '/pricing', name: 'pricing', component: PricingPage},
     {path:'/articles', name: 'articles', component: ArticlesPage},
     {path:'/info', name:'info', component: InfoPage},
+    {path: '/contact', name: 'contact', component: ContactPage}
 ];
 
 const router = createRouter({

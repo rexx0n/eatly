@@ -1,0 +1,125 @@
+.info {
+  margin-top: 126px;
+  margin-bottom: 168px;
+  button {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+  }
+  &__block {
+    margin-top: 95px;
+  }
+  &__mark {
+    list-style-type: circle;
+  }
+  &__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  &__card {
+    border-radius: 13.5px;
+    background: #FFF;
+    box-shadow: 0px 3px 40px 0px rgba(197, 197, 197, 0.25);
+    padding: 22px 17px 26px;
+
+    h2 {
+      margin-top: 18px;
+      font-size: 18px;
+    }
+
+    .info__author {
+      margin-top:17px;
+      align-items: center;
+      img {
+        max-width: 37px;
+        max-height: 37px;
+      }
+      span {
+        font-size: 10px;
+        line-height: 3;
+        span {
+          font-size: 15px;
+          line-height: 0;
+        }
+      }
+      p {
+        color: #B7B4B4;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 31px; /* 197.965% */
+      }
+    }
+  }
+
+  &__main {
+    margin-top: 80px;
+    display: flex;
+  }
+  &__top {
+    padding-left:46px ;
+  }
+  &__text {
+    border-right: 1px solid #9B9B9B;;
+    padding-right: 75px;
+    ul {
+      margin-left: 24px;
+      li {
+        color: #252525;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 44.549px;
+      }
+    }
+
+    h1 {
+      font-size: 33px;
+    }
+
+    p {
+      color: #252525;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 44px;
+    }
+  }
+
+  > img {
+    margin-top: 62px;
+  }
+
+  &__author {
+    display: flex;
+    gap: 15px;
+
+    img {
+      min-width: 55px;
+      min-height: 55px;
+    }
+
+    span {
+      display: flex;
+      flex-direction: column;
+      color: #8D8D8D;
+      font-size: 15px;
+      font-weight: 400;
+
+      span {
+        color: #000;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 33px; /* 153.333% */
+      }
+    }
+  }
+
+  h1 {
+    color: #252525;
+    margin-bottom: 33px;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px; /* 119.112% */
+  }
+}

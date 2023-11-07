@@ -9,7 +9,7 @@
               <a @click="toNext('choice')" :class="{header__active: links.menu}" href="">Menu</a>
               <a @click="toNext('articles')" :class="{header__active: links.blog}" href="">Blog</a>
               <a @click="toNext('pricing')" :class="{header__active: links.pricing}" href="">Pricing</a>
-              <a :class="{header__active: links.contact}" href="">Contact</a>
+              <a  @click="toNext('contact')" :class="{header__active: links.contact}" href="">Contact</a>
           </nav>
       </div>
       <div class="header__registration">
