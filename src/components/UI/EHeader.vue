@@ -14,7 +14,7 @@
       </div>
       <div class="header__registration">
           <a class="header__login" href="">Login</a>
-          <EButton>Sign Up</EButton>
+          <EButton @click="toNext('signup')">Sign Up</EButton>
       </div>
   </header>
 </template>
