@@ -13,7 +13,7 @@
           </nav>
       </div>
       <div class="header__registration">
-          <a class="header__login" href="">Login</a>
+          <a @click="toNext('signin')" class="header__login" href="">Login</a>
           <EButton @click="toNext('signup')">Sign Up</EButton>
       </div>
   </header>

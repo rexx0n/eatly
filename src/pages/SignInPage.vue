@@ -5,18 +5,13 @@
                 <div class="sign__form">
                     <img src="../assets/logo.svg" alt="">
                     <form action="">
-                        <label>Sign Up to eatly</label>
+                        <label>Sign In to eatly</label>
                         <div>
                             <button><img src="../assets/G.png" alt=""></button>
                             <button><img src="../assets/path4.png" alt=""></button>
                         </div>
                         <span>OR</span>
                         <div class="sign__inputs">
-                            <div :class="{sign__input_active: name.length !== 0}" class="sign__input">
-                                <img v-if="name.length !==0" src="../assets/usericon-active.png" alt="">
-                                <img v-else src="../assets/usericon.svg" alt="">
-                                <input v-model="name" type="text" placeholder="full name">
-                            </div>
                             <div :class="{sign__input_active: email.length !== 0}" class="sign__input">
                                 <img v-if="email.length !== 0" src="../assets/emai-activel.png" alt="">
                                 <img v-else src="../assets/email.png" alt="">
@@ -28,8 +23,9 @@
                                 <input v-model="password" type="password" placeholder="password">
                             </div>
                         </div>
+                        <h4 @click="toNext()">Forget Password?</h4>
                         <EButton class="sign__signup">SIGN UP</EButton>
-                        <p>Already Have An Account? <a href="signin">Log In</a></p>
+                        <p>Already Have An Account? <a href="signup">Sign Up</a></p>
                     </form>
                     <div class="sign__rule">
                         <h5>Privacy Policy</h5>
@@ -56,7 +52,13 @@
 
 import EButton from "../components/UI/EButton.vue";
 import {ref} from "vue";
+import router from "../router/router.js";
 
+function toNext() {
+    router.push({
+        name:'forget'
+    })
+}
 let name = ref('')
 let email = ref('')
 let password = ref('')

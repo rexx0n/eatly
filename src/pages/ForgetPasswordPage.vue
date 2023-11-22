@@ -5,31 +5,16 @@
                 <div class="sign__form">
                     <img src="../assets/logo.svg" alt="">
                     <form action="">
-                        <label>Sign Up to eatly</label>
-                        <div>
-                            <button><img src="../assets/G.png" alt=""></button>
-                            <button><img src="../assets/path4.png" alt=""></button>
-                        </div>
-                        <span>OR</span>
+                        <label>Forget Password</label>
+                        <span>Enter Your Mail To Reset</span>
                         <div class="sign__inputs">
-                            <div :class="{sign__input_active: name.length !== 0}" class="sign__input">
-                                <img v-if="name.length !==0" src="../assets/usericon-active.png" alt="">
-                                <img v-else src="../assets/usericon.svg" alt="">
-                                <input v-model="name" type="text" placeholder="full name">
-                            </div>
                             <div :class="{sign__input_active: email.length !== 0}" class="sign__input">
                                 <img v-if="email.length !== 0" src="../assets/emai-activel.png" alt="">
                                 <img v-else src="../assets/email.png" alt="">
                                 <input v-model="email" type="text" placeholder="email">
                             </div>
-                            <div :class="{sign__input_active: password.length !== 0}" class="sign__input">
-                                <img v-if="password.length !== 0" src="../assets/icon-active.png" alt="">
-                                <img v-else src="../assets/icon8.png" alt="">
-                                <input v-model="password" type="password" placeholder="password">
-                            </div>
                         </div>
-                        <EButton class="sign__signup">SIGN UP</EButton>
-                        <p>Already Have An Account? <a href="signin">Log In</a></p>
+                        <EButton class="sign__signup">VERIFY</EButton>
                     </form>
                     <div class="sign__rule">
                         <h5>Privacy Policy</h5>
@@ -57,14 +42,29 @@
 import EButton from "../components/UI/EButton.vue";
 import {ref} from "vue";
 
-let name = ref('')
 let email = ref('')
-let password = ref('')
 </script>
 
 <style scoped lang="scss">
 .container {
   max-width: 1344px;
+}
+.sign__rule {
+    margin-top: 300px;
+}
+form {
+    label {
+        margin-bottom: 0;
+    }
+    > span {
+        color: #CFCFD3;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 125%; /* 28.198px */
+        text-transform: none;
+        margin-top: 24px;
+        margin-bottom: 90px;
+    }
 }
 
 </style>
