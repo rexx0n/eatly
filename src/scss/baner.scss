@@ -35,3 +35,16 @@
     }
   }
 }
+@media screen and (max-width: 1440px) {
+  .baner {
+    margin-top: 60px;
+    div {
+      padding-right: 47px;
+      padding-left: 47px;
+      font-size: 31px;
+      p {
+        font-size: 10px;
+      }
+    }
+  }
+}

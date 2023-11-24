@@ -29,4 +29,10 @@ export default {
         background: none;
         color:#6C5FBC;
     }
+    @media screen and (max-width: 1440px) {
+        button {
+            padding: 13px 19px;
+            font-size: 13px;
+        }
+    }
 </style>

@@ -37,3 +37,21 @@
     line-height: 30.502px; /* 150% */
   }
 }
+@media screen and (max-width: 1440px) {
+  .premium {
+    margin-top: 83px;
+    background-position-x: 86%;
+    background-position-y: 77%;
+    &__info {
+      max-width: 398px;
+    }
+    img {
+      max-width: 264px;
+    }
+    li {
+      font-size: 14px;
+      line-height: 21.691px; /* 150% */
+    }
+
+  }
+}

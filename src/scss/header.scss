@@ -57,3 +57,13 @@ header {
   padding-bottom: 25px;
   border-bottom: 1px solid #CBCBCB;;
 }
+@media screen and (max-width: 1440px) {
+  .header {
+    span {
+      font-size: 15px;
+    }
+    a {
+      font-size: 13px;
+    }
+  }
+}

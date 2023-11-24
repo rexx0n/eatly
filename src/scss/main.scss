@@ -74,3 +74,37 @@
     }
   }
 }
+@media screen and (max-width: 1440px) {
+  .main {
+    margin-top: 34px;
+    img {
+      max-width: 429px;
+    }
+    &__feedback {
+      img:first-child {
+        max-width: 88px;
+      }
+      img:last-child {
+        max-width: 68px;
+      }
+      span {
+        font-size: 12px;
+      }
+    }
+    &__buttons {
+      margin-top: 37px;
+    }
+    &__info {
+      p {
+        font-size: 13px;
+      }
+      h1 {
+        font-size: 53px ;
+        margin-top: 12px;
+      }
+      > span {
+        font-size: 11px;
+      }
+    }
+  }
+}
