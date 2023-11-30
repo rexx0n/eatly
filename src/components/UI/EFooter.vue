@@ -28,17 +28,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 11px;
-    span {
-        color: #6C5FBC;
-        font-size: 29px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 130%; /* 37.082px */
-    }
-}
+
 
 </style>

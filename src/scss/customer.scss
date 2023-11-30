@@ -1,26 +1,32 @@
 .customer {
   margin-top: 116px;
   margin-bottom: 216px;
+
   h1 {
     text-align: center;
   }
+
   &__slider {
     margin-top: 80px;
     overflow: hidden;
   }
+
   &__line {
     display: flex;
     width: 1665px;
     justify-content: space-between;
   }
+
   &__card {
     padding: 38px 43px 38px 43px;
     max-width: 528px;
     background: #fff;
     border-radius: 15px;
+
     > img {
       margin-top: 39px;
     }
+
     p {
       color: #636363;
       font-size: 18px;
@@ -29,15 +35,18 @@
       font-weight: 400;
       line-height: 26px; /* 145.094% */
     }
+
     > div {
       display: flex;
       justify-content: space-between;
       align-items: center;
+
       > div {
         display: flex;
         align-items: center;
         gap: 10px;
       }
+
       span {
         display: flex;
         flex-direction: column;
@@ -48,13 +57,23 @@
         line-height: 31px; /* 150% */
         span {
           color: #5E5D5D;
-          font-family: 'Quicksand',sans-serif;
+          font-family: 'Quicksand', sans-serif;
           font-size: 16.715px;
           font-style: normal;
           font-weight: 500;
           line-height: 26.117px; /* 156.25% */
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .customer {
+    margin-top: 82px;
+    margin-bottom: 154px;
+    &__slider {
+      margin-top: 56px;
     }
   }
 }

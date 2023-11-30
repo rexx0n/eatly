@@ -66,4 +66,29 @@ export default defineComponent({
         line-height: normal;
     }
 }
+@media screen and (max-width: 1440px) {
+.baner-component {
+    >div  {
+     > div {
+         padding: 5px 5px 5px 15px;
+         max-width: 312px;
+         gap: 44px;
+         button {
+             font-size: 10px;
+             padding: 10px 17px;
+         }
+         input {
+             font-size: 12px;
+         }
+     }
+    }
+    h1 {
+        font-size: 50px;
+    }
+    img {
+        max-width: 195px;
+        max-height: 195px;
+    }
+}
+}
 </style>

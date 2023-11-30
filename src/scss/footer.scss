@@ -39,3 +39,43 @@
     line-height: 25px; /* 147.059% */
   }
 }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  span {
+    color: #6C5FBC;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 37.082px */
+  }
+}
+@media screen and (max-width: 1440px) {
+.footer {
+  padding: 66px 73px 64px 57px;
+  &__social {
+    margin-top: 40px;
+    img {
+      max-width: 166px;
+    }
+  }
+  &__info {
+    padding-bottom: 20px;
+    nav {
+      a {
+        font-size: 13px;
+      }
+    }
+
+  }
+}
+  .logo {
+    span {
+      font-size: 20px;
+    }
+    img {
+      max-width: 44px;
+    }
+  }
+}
