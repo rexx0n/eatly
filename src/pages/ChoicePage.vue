@@ -117,13 +117,25 @@ let icon = ref(2)
 
 
 function slider() {
-    if (count.value <= 2) {
-        translate.value = translate.value + -852
-        count.value++
-    } else {
-        translate.value = 0
-        count.value = 1
+    if( window.innerWidth < 1440) {
+        if (count.value <= 2) {
+            translate.value = translate.value + -555
+            count.value++
+        } else {
+            translate.value = 0
+            count.value = 1
+        }
     }
+    if (window.innerWidth > 1400) {
+        if (count.value <= 2) {
+            translate.value = translate.value + -852
+            count.value++
+        } else {
+            translate.value = 0
+            count.value = 1
+        }
+    }
+
 }
 
 setInterval(() => {
