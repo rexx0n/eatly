@@ -65,3 +65,10 @@
     }
   }
 }
+@media screen and (max-width: 1440px) {
+.map {
+  img {
+    max-width: 888px;
+  }
+}
+}

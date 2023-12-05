@@ -119,3 +119,77 @@
     }
   }
 }
+@media screen and (max-width: 1440px) {
+.product {
+  max-width: 484px;
+  &__cards {
+    width: 100%;
+    margin:131px auto 0 auto;
+  }
+  &__amount {
+    align-items: center;
+  }
+  &__counter {
+    p {
+      font-size: 12px;
+      line-height: 140%; /* 17.507px */
+    }
+  }
+  &__total {
+
+    .product__end {
+      padding-top: 20px;
+      div {
+        padding-top: 11px;
+        padding-bottom: 5px;
+      }
+      span {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 117.5%; /* 20.889px */
+      }
+    }
+    span {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 117.5%; /* 16.711px */
+    }
+  }
+  &__input {
+    margin:63px auto 0 auto;
+  justify-content: space-between;
+    div {
+      max-width: 384px;
+    }
+   > button {
+     padding: 17px 28px;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 117.5%; /* 15.04px */
+    }
+  }
+  &__button {
+    &-plus {
+      padding: 2px 9px;
+    }
+    &-minus {
+      padding: 2px 9px;
+    }
+  }
+  &__info {
+    align-items: center;
+    span {
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 140%; /* 21.902px */
+      span {
+        font-size: 13px;
+      }
+    }
+    img {
+      max-width: 70px;
+      max-height: 72px;
+    }
+  }
+}
+}

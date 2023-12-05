@@ -128,5 +128,10 @@ function plus(item) {
     margin-top: 255px;
     margin-bottom: 171px;
 }
-
+@media screen and (max-width: 1440px) {
+.baner1 {
+    margin-top: 181px;
+    margin-bottom: 118px;
+}
+}
 </style>

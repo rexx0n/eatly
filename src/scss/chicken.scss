@@ -36,3 +36,32 @@
     }
   }
 }
+@media screen and (max-width: 1440px) {
+.chicken {
+  margin-top: 75px;
+  &__text {
+    img {
+      max-width: 29px;
+    }
+
+    span {
+      font-size: 18px;
+      line-height: 24px; /* 133.333% */
+    }
+    div {
+      margin-left: 106px;
+      margin-right: 268px;
+    }
+    h1 {
+      font-size: 28px;
+      line-height: 37px; /* 133.41% */
+    }
+  }
+  &__card {
+    max-width: 880px;
+    img {
+      max-width: 880px;
+    }
+  }
+}
+}
