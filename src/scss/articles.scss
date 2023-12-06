@@ -87,7 +87,7 @@
     max-width: 349px;
     border-radius: 16px;
     padding: 25px 20px 28px;
-    box-shadow: 0px 3.90533px 46.86401px 0px rgba(197, 197, 197, 0.25);
+    box-shadow: 0 4px 47px 0 rgba(197, 197, 197, 0.25);
     cursor: pointer;
     h4 {
       margin-top: 22px;
@@ -97,4 +97,50 @@
       line-height: 25.18px; /* 119.112% */
     }
   }
+}
+@media screen and (max-width: 1440px) {
+.articles {
+  margin-top: 118px;
+  &__buttons {
+    margin-top: 103px;
+  }
+  &__cards {
+    gap: 84px;
+  }
+  &__author {
+    gap: 8px;
+    p{
+      font-size: 11px;
+      line-height: 22.32px; /* 197.965% */
+    }
+    img {
+      max-width: 31px;
+    }
+    span {
+      font-size: 8px;
+      line-height: normal;
+      padding-right: 15px;
+      span {
+        font-size: 12px;
+        line-height: 18px; /* 153.333% */
+      }
+    }
+  }
+  &__card {
+    padding: 18px 14px 22px 14px;
+    img {
+      max-width: 220px;
+    }
+    h4 {
+      font-size: 15px;
+      line-height: 18px; /* 119.112% */
+    }
+  }
+  &__cards {
+    margin-top: 70px;
+    &-row {
+      gap: 43px;
+    }
+  }
+}
 }
