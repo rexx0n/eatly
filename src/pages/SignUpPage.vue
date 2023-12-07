@@ -66,5 +66,9 @@ let password = ref('')
 .container {
   max-width: 1344px;
 }
-
+@media screen and (max-width: 1440px) {
+    .container {
+        max-width: 890px;
+    }
+}
 </style>

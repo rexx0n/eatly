@@ -61,6 +61,7 @@
     width: 100%;
     animation-name: fadein;
     animation-duration: 2s;
+
     &_active {
       animation-name: fadein;
       animation-duration: 2s;
@@ -181,5 +182,92 @@
     padding-left: 78px;
     background: #6C5FBC url("../assets/illustration.png");
     box-shadow: 320px 172px 1px 320px #6C5FBC;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .sign {
+    &__rule {
+      gap: 30px;
+      justify-content: center;
+    }
+    &__input {
+      padding: 17px 0 17px 16px;
+
+      input {
+        font-size: 12px;
+        letter-spacing: 0.83px;
+
+      }
+      img {
+        max-width: 16px;
+        max-height: 16px;
+      }
+    }
+    &__form {
+      form {
+        p {
+          font-size: 13px;
+          a {
+            font-size: 13px;
+          }
+        }
+        .sign__signup {
+          margin-top: 13px;
+          padding: 17px;
+          font-size: 12.649px;
+          font-weight: 600;
+          letter-spacing: 0.379px;
+        }
+        h4 {
+          font-size: 11px;
+        }
+        span {
+          margin-top: 23px;
+          margin-bottom: 28px;
+          font-size: 14px;
+        }
+        input {
+          padding: 0;
+        }
+        > div {
+          gap: 15px;
+          justify-content: center;
+        }
+        button {
+          max-width: 130px;
+          img {
+            max-width: 19px;
+          }
+          padding: 7px 56px;
+        }
+        label {
+          margin-bottom: 35px;
+          font-size: 25px;
+          line-height: 125%; /* 31.333px */
+        }
+      }
+
+    }
+    &__text {
+      h2 {
+        font-size: 28px;
+        line-height: 110%; /* 31.289px */
+      }
+      p {
+        font-size: 10px;
+        line-height: 150%; /* 14.933px */
+      }
+    }
+    &__illustration {
+      padding-top: 177px;
+      padding-left: 55px;
+      max-width: 355px;
+      img {
+        max-width: 388px;
+      }
+    }
+
+
   }
 }
