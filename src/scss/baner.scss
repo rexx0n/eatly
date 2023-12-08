@@ -4,20 +4,23 @@
   padding-top: 49px;
   margin-top: 85px;
   padding-bottom: 49px;
+
   &__items {
     display: flex;
     justify-content: center;
   }
-  div {
+
+ &__item {
     &:last-child {
       border: none;
     }
+
     padding-right: 66px;
     padding-left: 66px;
-    border-right: 1px solid #6b5fb1 ;
-    color:  #FFF;
+    border-right: 1px solid #6b5fb1;
+    color: #FFF;
     text-align: center;
-    font-family: 'Public Sans',sans-serif;
+    font-family: 'Public Sans', sans-serif;
     font-size: 43.2px;
     font-style: normal;
     font-weight: 700;
@@ -27,7 +30,7 @@
       align-items: center;
       color: #C5BFED;
       text-align: center;
-      font-family: 'Inter',sans-serif;
+      font-family: 'Inter', sans-serif;
       font-size: 14.4px;
       font-style: normal;
       font-weight: 500;
@@ -35,16 +38,44 @@
     }
   }
 }
+
 @media screen and (max-width: 1440px) {
   .baner {
     margin-top: 60px;
-    div {
+
+   &__item {
       padding-right: 47px;
       padding-left: 47px;
       font-size: 31px;
+
       p {
         font-size: 10px;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .baner {
+    margin-top: 75px;
+    padding: 99px 0 22px 0;
+    &__item {
+      padding: 0 0 60px;
+      border-right: none;
+      border-bottom: 1px solid #6b5fb1;
+      p {
+        margin-top: 0;
+        font-size: 14px;
+        line-height: 21.6px; /* 150% */
+      }
+    }
+    &__item {
+      font-size: 43px;
+      line-height: 54px; /* 125% */
+    }
+    &__items {
+      flex-direction: column;
+      gap: 60px;
     }
   }
 }

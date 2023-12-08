@@ -38,6 +38,9 @@
   &__login {
     font-weight: 700;
   }
+  &__burger {
+    display: none;
+  }
   &__registration {
     display: flex;
     align-items: center;
@@ -66,4 +69,25 @@ header {
       font-size: 13px;
     }
   }
+}
+@media screen and (max-width: 1024px) {
+ .header {
+   justify-content: center;
+   &__registration {
+     display: none;
+   }
+   &__burger {
+     display: block;
+     > nav {
+       display: none;
+     }
+   }
+   &__logo-nav {
+     gap: 168px;
+     > nav {
+       display: none;
+     }
+   }
+
+ }
 }
