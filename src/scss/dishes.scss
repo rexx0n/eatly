@@ -123,57 +123,131 @@
     margin-top: 65px;
   }
 }
+
 @media screen and (max-width: 1440px) {
   .dishes {
     margin-top: 71px;
     margin-bottom: 85px;
-   .title a {
+
+    .title a {
       margin-top: 46px;
       font-size: 14px;
     }
+
     &__cards {
       margin-top: 53px;
     }
+
     &__card {
       max-width: 160px;
+
       img {
         max-width: 143px;
       }
     }
+
     &__info {
       margin-top: -12px;
       padding: 0 16px 22px 16px;
+
       h4 {
         font-size: 16px;
         font-weight: 600;
       }
+
       > span {
         font-size: 8px;
         font-weight: 400;
       }
     }
+
     &__price {
       align-items: center;
+
       button {
         padding-left: 8px;
         padding-right: 8px;
         font-size: 18px;
         max-height: 28px;
       }
+
       h3 {
         font-size: 18px;
+
         span {
           font-size: 13px;
         }
       }
     }
+
     &__feedback {
       img {
         max-width: 16px;
       }
+
       span {
         font-size: 12px;
         font-weight: 400;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .dishes {
+    margin-top: 85px;
+    padding-bottom: 66px;
+    margin-bottom: 0;
+    &__cards {
+      flex-wrap: wrap;
+      row-gap: 40px;
+    }
+
+    &__price {
+      h3 {
+        font-size: 12px;
+        line-height: 26px;
+      }
+      button {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+    }
+    &__healthy {
+      font-size: 7px;
+      line-height: normal;
+    }
+    &__feedback {
+      span {
+        font-size: 11px;
+        line-height: 15.08px; /* 133.333% */
+      }
+      img {
+        max-width: 15px;
+      }
+    }
+    &__info {
+      padding: 0 16px 20px 15px;
+    }
+
+    &__card {
+      max-width: 147px;
+      max-height: 255px;
+        &:last-child {
+          display: none;
+        }
+      h4 {
+        font-size: 15px;
+        line-height: 24.504px; /* 162.5% */
+      }
+        img:first-child {
+          margin-top: 15px;
+          margin-left: 14px;
+          margin-bottom: -20px;
+          max-width: 14px;
+        }
+      > img {
+        max-width: 131px;
       }
     }
   }

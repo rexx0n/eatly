@@ -108,50 +108,76 @@
   .restaurants {
     margin-top: 71px;
     padding-bottom: 85px;
+
     .title a {
       margin-top: 46px;
       font-size: 14px;
     }
+
     h1 {
       font-size: 32px;
+
       span {
         font-size: 32px;
       }
     }
+
     &__cards {
       margin-top: 60px;
     }
+
     &__card {
       img {
         border-top-left-radius: 21px;
-        border-top-right-radius:21px;
+        border-top-right-radius: 21px;
         max-width: 281px;
       }
 
     }
+
     &__feedback {
       > img {
         max-width: 28px;
       }
+
       div {
         img {
           max-width: 18px;
         }
       }
     }
+
     &__info {
       padding: 8px 19px 13px 24px;
+
       h6 {
         font-size: 9px;
       }
+
       h3 {
         font-size: 18px;
         line-height: 29.798px; /* 162.5% */
       }
+
       span {
         font-size: 14px;
         line-height: 18.337px;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .restaurants {
+    margin-top: 84px;
+    padding-bottom: 66px  ;
+    a {
+      margin-top: 61px;
+    }
+    &__cards {
+      gap: 40px;
+      flex-direction: column;
+      align-items: center;
     }
   }
 }

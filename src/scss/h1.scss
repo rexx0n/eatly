@@ -11,8 +11,15 @@ h1 {
 }
 @media screen and (max-width: 1440px) {
   h1 {
-    font-size: 36.212px;
+    font-size: 36px;
     line-height: 41.385px; /* 114.286% */
 
+  }
+}
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 30px;
+    line-height: 34.23px; /* 114.099% */
+    text-transform: capitalize;
   }
 }

@@ -17,42 +17,48 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+
     > div {
       padding: 18px;
       border-radius: 13.5px;
       border: 1px solid #EDF2F7;
+
       > div {
         display: flex;
         align-items: center;
         justify-content: space-between;
+
         > div {
           display: flex;
           align-items: center;
           gap: 13px;
         }
       }
+
       p {
-        color:  #1A202C;
-        font-family: 'Manrope',sans-serif;
+        color: #1A202C;
+        font-family: 'Manrope', sans-serif;
         font-size: 22px;
         font-style: normal;
         font-weight: 800;
         line-height: 150%; /* 32.982px */
         letter-spacing: 0.314px;
       }
+
       span {
         display: flex;
         flex-direction: column;
-        color:  #1A202C;
-        font-family: 'Manrope',sans-serif;
+        color: #1A202C;
+        font-family: 'Manrope', sans-serif;
         font-size: clamp(13px, 1vw, 18px);
         font-style: normal;
         font-weight: 800;
         line-height: 150%; /* 20.104px */
         letter-spacing: 0.628px;
+
         span {
           color: #A0AEC0;
-          font-family: 'Manrope',sans-serif;
+          font-family: 'Manrope', sans-serif;
           font-size: clamp(11px, 1vw, 15.706px);
           font-style: normal;
           font-weight: 500;
@@ -154,65 +160,127 @@
     }
   }
 }
+
 @media screen and (max-width: 1440px) {
-.purchases {
-  margin-top: 73px;
-  padding-bottom: 95px;
-  &__purchases {
-    > div {
-      p {
-        font-size: 15px;
-      }
-      > img {
-        max-width: 290px;
-      }
+  .purchases {
+    margin-top: 73px;
+    padding-bottom: 95px;
+
+    &__purchases {
       > div {
+        p {
+          font-size: 15px;
+        }
+
+        > img {
+          max-width: 290px;
+        }
+
         > div {
-          img {
-            max-width: 35px;
-          }
-          span {
-            font-size: 13px;
+          > div {
+            img {
+              max-width: 35px;
+            }
+
             span {
-              font-size: 11px;
+              font-size: 13px;
+
+              span {
+                font-size: 11px;
+              }
             }
           }
         }
       }
     }
-  }
-  &__purchases-info {
-    max-width: 380px;
-    padding: 32px 27px 32px 29px;
-    select {
-      font-size: 13px;
-      font-style: normal;
-    }
-    h4 {
-      font-size: 20px;
-      font-style: normal;
-    }
-  }
-  &__time {
-    gap: 105px;
-  }
-  &__card {
-    max-width: 245px;
-    padding: 3px 12px 7px 12px;
-    span {
-      font-size: 9px;
-    }
-    img {
-      max-width: 54px;
-    }
-    div {
-      h4 {
+
+    &__purchases-info {
+      max-width: 380px;
+      padding: 32px 27px 32px 29px;
+
+      select {
         font-size: 13px;
-        span {
-          font-size: 8px;
+        font-style: normal;
+      }
+
+      h4 {
+        font-size: 20px;
+        font-style: normal;
+      }
+    }
+
+    &__time {
+      gap: 105px;
+    }
+
+    &__card {
+      max-width: 245px;
+      padding: 3px 12px 7px 12px;
+
+      span {
+        font-size: 9px;
+      }
+
+      img {
+        max-width: 54px;
+      }
+
+      div {
+        h4 {
+          font-size: 13px;
+
+          span {
+            font-size: 8px;
+          }
         }
       }
     }
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .purchases {
+    margin-top: 85px;
+    flex-direction: column;
+    gap: 100px;
+    &__purchases-info {
+      padding: 26px 22px 27px 22px;
+      select {
+        font-size: 11px;
+        line-height: 150%; /* 16.747px */
+      }
+    }
+    &__purchases {
+      > div {
+        padding: 14px;
+        max-width: 271px;
+        img {
+          max-width: 241px;
+        }
+        > div {
+          > div {
+            img {
+              max-width: 29px;
+              span {
+                font-size: 11px;
+                line-height: 150%; /* 16.747px */
+                span {
+                  font-size: 9px;
+                  line-height: 150%; /* 13.955px */
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    &__time {
+      gap: 85px;
+      margin-bottom: 26px;
+      h4 {
+        font-size: 16px;
+        line-height: 135%; /* 22.608px */
+      }
+    }
+  }
 }

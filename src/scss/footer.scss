@@ -79,3 +79,26 @@
     }
   }
 }
+@media screen and (max-width: 1024px) {
+.footer {
+  &__social {
+    span {
+      font-size: 13px;
+      line-height: 19.914px; /* 147.059% */
+    }
+  }
+  &__info {
+    flex-direction: column;
+    gap: 53px;
+    nav {
+      flex-direction: column;
+      gap: 30px;
+      a {
+        font-size: 14px;
+        line-height: 18.884px; /* 134.887% */
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+}

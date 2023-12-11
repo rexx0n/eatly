@@ -35,4 +35,11 @@ export default {
             font-size: 13px;
         }
     }
+    @media screen and (max-width: 1024px) {
+    button {
+        padding: 13px 17px;
+        font-size: 11px;
+        line-height: 14px; /* 125% */
+    }
+    }
 </style>

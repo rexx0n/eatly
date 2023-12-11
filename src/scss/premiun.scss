@@ -55,3 +55,24 @@
 
   }
 }
+@media screen and (max-width: 1024px) {
+  .premium {
+    margin-top: 67px;
+    padding-bottom: 66px;
+    flex-direction: column-reverse;
+    img {
+      margin-top: 30px;
+    }
+    button {
+      margin: 35px auto 0;
+    }
+    ul {
+      gap: 16px;
+      margin-top: 37px;
+      li {
+        font-size: 12px;
+        line-height: 17.94px; /* 150% */
+      }
+    }
+  }
+}
