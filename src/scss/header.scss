@@ -78,8 +78,9 @@ header {
    }
    &__burger {
      display: block;
-     > nav {
-       display: none;
+     nav {
+       flex-direction: column;
+       gap: 10px;
      }
    }
    &__logo-nav {

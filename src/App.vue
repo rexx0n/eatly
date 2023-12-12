@@ -7,6 +7,7 @@
 </template>
 
 <style>
+
 @keyframes fadein {
     0% {
         opacity: 0.2;
