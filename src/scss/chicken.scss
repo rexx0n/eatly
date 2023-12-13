@@ -1,26 +1,30 @@
 .chicken {
   margin-top: 106px;
   max-width: 1238px;
+
   &__card {
     border-radius: 30px;
     border: 1.5px solid #F4F4F6;
     background: #FFF;
     box-shadow: 7.5px 91px 45px 0px rgba(229, 229, 229, 0.70);
   }
+
   &__text {
     display: flex;
     padding: 26px 30px 31px 46px;
     border-radius: 30px;
-    background:  #FFF;
+    background: #FFF;
     box-shadow: 7.5px 91px 45px 0px rgba(229, 229, 229, 0.70);
+
     span {
       color: #8E97A6;
-      font-family: 'Manrope',sans-serif;
+      font-family: 'Manrope', sans-serif;
       font-size: 26px;
       font-style: normal;
       font-weight: 400;
       line-height: 35px; /* 133.333% */
     }
+
     h1 {
       color: #323142;
       font-size: 40px;
@@ -28,6 +32,7 @@
       font-weight: 600;
       line-height: 53px; /* 133.41% */
     }
+
     div {
       display: flex;
       align-items: center;
@@ -36,32 +41,62 @@
     }
   }
 }
+
 @media screen and (max-width: 1440px) {
-.chicken {
-  margin-top: 75px;
-  &__text {
-    img {
-      max-width: 29px;
+  .chicken {
+    margin-top: 75px;
+
+    &__text {
+      img {
+        max-width: 29px;
+      }
+
+      span {
+        font-size: 18px;
+        line-height: 24px; /* 133.333% */
+      }
+
+      div {
+        margin-left: 106px;
+        margin-right: 268px;
+      }
+
+      h1 {
+        font-size: 28px;
+        line-height: 37px; /* 133.41% */
+      }
     }
 
-    span {
-      font-size: 18px;
-      line-height: 24px; /* 133.333% */
-    }
-    div {
-      margin-left: 106px;
-      margin-right: 268px;
-    }
-    h1 {
-      font-size: 28px;
-      line-height: 37px; /* 133.41% */
-    }
-  }
-  &__card {
-    max-width: 880px;
-    img {
+    &__card {
       max-width: 880px;
+
+      img {
+        max-width: 880px;
+      }
     }
   }
 }
+@media screen and (max-width: 1024px) {
+  .chicken {
+    &__text {
+      padding: 27px 21px 13px 27px;
+      flex-direction: column;
+      svg {
+        max-width: 32px;
+      }
+      div {
+        margin: 0;
+      }
+      h1 {
+        font-size: 20px;
+        line-height: 33.333px; /* 162.5% */
+      }
+    }
+    &__card {
+      img {
+        max-width: 315px;
+        max-height: 140px;
+      }
+    }
+  }
 }

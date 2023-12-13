@@ -3,19 +3,23 @@
   justify-content: space-between;
   margin-top: 120px;
   margin-bottom: 120px;
+
   &__price {
     button {
       width: 100%;
       margin-top: 38px;
     }
+
     input {
       max-width: 303px;
       width: 100%;
       cursor: pointer;
     }
+
     span {
       display: flex;
-      gap:31px;
+      gap: 31px;
+
       span {
         color: #C2C3CB;
         font-feature-settings: 'clig' off, 'liga' off;
@@ -26,6 +30,7 @@
       }
     }
   }
+
   &__sort {
     margin-top: 13px;
     margin-bottom: 25px;
@@ -260,114 +265,182 @@
     }
   }
 }
+
 @media screen and (max-width: 1440px) {
-.choice {
-  &__slider {
-    max-width: 539px;
-  }
-  &__price {
-    button {
-      margin-top: 26px;
+  .choice {
+    &__slider {
+      max-width: 539px;
     }
-    input {
-      max-width: 203px;
-    }
-    span {
-      gap: 22px;
-      span {
-        font-size: 7px;
+
+    &__price {
+      button {
+        margin-top: 26px;
       }
 
-    }
-  }
-  &__sort {
-    margin-top: 8px;
-    margin-bottom: 20px;
-    span {
-      font-size: 11px;
-      line-height: 20px;
-      margin: 0;
-    }
-  }
-  &__icons {
-    margin-top: 12px;
-    margin-bottom: 22px;
-  }
-  &__icon {
-    padding: 11px 11px 8px 11px;
-    max-width: 47px;
-    width: 100%;
-    span {
-      font-size: 8px;
-    }
-    &--donat {
-      img {
-        max-width: 24px;
-      }
-    }
-    &--pizza {
-      img {
-        max-width: 24px;
-      }
-    }
-    &--asian {
-      padding: 5px 4px 5px 4px;
-    }
-    &--ice {
-      padding: 8px 16px 8px 15px;
-      img {
-        max-width: 16px;
-        max-height: 29px;
+      input {
+        max-width: 203px;
       }
 
-    }
-  }
-  &__btns {
-    margin-top: 25px;
-    button {
-      &:first-child {
-        padding: 15px 116px 14px 116px;
-      }
-      font-size: 14px;
-      line-height: normal;
-      padding: 15px 101px 14px 101px;
-    }
-  }
-  &__select {
-    margin-top:62px;
-  }
-  &__input {
-    padding: 15px 15px 14px 20px;
-    gap: 20px;
-    max-width: 538px;
-    img {
-      max-width: 15px   ;
-    }
-    input {
-      font-size: 14px;
-      line-height: 117%;
-    }
-  }
-  &__category {
-    max-width: 268px;
-    max-height: 420px;
-    padding: 23px 23px 28px 23px;
-    h4 {
-      font-size: 15px;
-    }
-  }
-  .choice__item {
-    padding: 21px 25px 20px 43px;
-    img {
-      max-width: 180px;
-      margin-left: -57px;
-    }
-    h1 {
-      font-size: 53px;
       span {
-        font-size: 62px;
+        gap: 22px;
+
+        span {
+          font-size: 7px;
+        }
+
+      }
+    }
+
+    &__sort {
+      margin-top: 8px;
+      margin-bottom: 20px;
+
+      span {
+        font-size: 11px;
+        line-height: 20px;
+        margin: 0;
+      }
+    }
+
+    &__icons {
+      margin-top: 12px;
+      margin-bottom: 22px;
+    }
+
+    &__icon {
+      padding: 11px 11px 8px 11px;
+      max-width: 47px;
+      width: 100%;
+
+      span {
+        font-size: 8px;
+      }
+
+      &--donat {
+        img {
+          max-width: 24px;
+        }
+      }
+
+      &--pizza {
+        img {
+          max-width: 24px;
+        }
+      }
+
+      &--asian {
+        padding: 5px 4px 5px 4px;
+      }
+
+      &--ice {
+        padding: 8px 16px 8px 15px;
+
+        img {
+          max-width: 16px;
+          max-height: 29px;
+        }
+
+      }
+    }
+
+    &__btns {
+      margin-top: 25px;
+
+      button {
+        &:first-child {
+          padding: 15px 116px 14px 116px;
+        }
+
+        font-size: 14px;
+        line-height: normal;
+        padding: 15px 101px 14px 101px;
+      }
+    }
+
+    &__select {
+      margin-top: 62px;
+    }
+
+    &__input {
+      padding: 15px 15px 14px 20px;
+      gap: 20px;
+      max-width: 538px;
+
+      img {
+        max-width: 15px;
+      }
+
+      input {
+        font-size: 14px;
+        line-height: 117%;
+      }
+    }
+
+    &__category {
+      max-width: 268px;
+      max-height: 420px;
+      padding: 23px 23px 28px 23px;
+
+      h4 {
+        font-size: 15px;
+      }
+    }
+
+    .choice__item {
+      padding: 21px 25px 20px 43px;
+
+      img {
+        max-width: 180px;
+        margin-left: -57px;
+      }
+
+      h1 {
+        font-size: 53px;
+
+        span {
+          font-size: 62px;
+        }
       }
     }
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .choice {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    &__btns {
+      button {
+        font-size: 12px;
+        &:first-child {
+          padding: 17px 64px 16px 63px;
+        }
+        &:last-child {
+          padding: 17px 46px 16px;
+        }
+      }
+      .choiceActive {
+
+      }
+    }
+    &__slider {
+      max-width: 306px;
+    }
+    .choice__item {
+      padding: 12px 14px 11px 24px;
+      img {
+        max-width: 102px;
+        max-height: 103px;
+        margin-left: -31px;
+      }
+      h1 {
+        line-height: normal;
+        font-size: 30px;
+        span {
+          font-size: 35px;
+        }
+      }
+    }
+  }
 }

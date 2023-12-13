@@ -117,7 +117,16 @@ let icon = ref(2)
 
 
 function slider() {
-    if( window.innerWidth < 1440) {
+    if (window.innerWidth < 1024) {
+        if (count.value <= 2) {
+            translate.value = translate.value + -324
+            count.value++
+        } else {
+            translate.value = 0
+            count.value = 1
+        }
+    }
+    else if( window.innerWidth < 1440) {
         if (count.value <= 2) {
             translate.value = translate.value + -555
             count.value++
@@ -126,7 +135,7 @@ function slider() {
             count.value = 1
         }
     }
-    if (window.innerWidth > 1400) {
+    else if (window.innerWidth > 1400) {
         if (count.value <= 2) {
             translate.value = translate.value + -852
             count.value++
@@ -135,6 +144,8 @@ function slider() {
             count.value = 1
         }
     }
+
+
 
 }
 
@@ -155,9 +166,6 @@ onMounted(() => {
     }
 }
 
-h1 {
-  font-size: 35px;
-}
 
 .title {
   display: flex;
