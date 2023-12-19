@@ -72,3 +72,26 @@
   }
 }
 }
+@media screen and (max-width: 1024px) {
+.map {
+  &__name {
+    padding: 14px 14px 18px 13px;
+    span {
+      font-size: 15px;
+      span {
+        font-size: 10px;
+      }
+    }
+    img {
+      max-width: 41px;
+      max-height: 39px;
+    }
+  }
+  &__card {
+    margin: -4px auto auto;
+  }
+  > img {
+    max-width: 315px;
+  }
+}
+}
