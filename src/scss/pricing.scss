@@ -110,6 +110,7 @@
     }
   }
 }
+
 .our-pricing {
   margin-top: 66px;
   padding-top: 43px;
@@ -139,14 +140,18 @@
     justify-content: center;
   }
 }
+
 @media screen and (max-width: 1440px) {
   .pricing {
     padding: 36px 0 38px 0;
+
     &__buttons {
-      padding: 31px 74px 0 ;
+      padding: 31px 74px 0;
     }
+
     &__core {
       padding: 35px 123px 44px 44px;
+
       ul {
         li {
           font-size: 15px;
@@ -160,15 +165,19 @@
         }
       }
     }
+
     &__price {
       padding: 28px 97px 33px;
+
       div {
         align-items: flex-end;
+
         p {
           font-size: 11px;
           font-weight: 500;
           line-height: 17.067px; /* 150% */
         }
+
         span {
           font-size: 17px;
           font-weight: 600;
@@ -181,17 +190,21 @@
         }
       }
     }
-    &__title{
+
+    &__title {
       &-main {
         margin-right: 0;
       }
+
       div {
         gap: 18px;
+
         span {
           font-size: 11px;
           font-weight: 500;
           line-height: 17.067px; /* 150% */
         }
+
         h2 {
           font-size: 28px;
           font-weight: 600;
@@ -201,25 +214,94 @@
       }
     }
   }
-  .our-pricing{
+  .our-pricing {
     padding-top: 0;
     margin-top: 47px;
+
     &__img {
-      margin-top:-223px;
+      margin-top: -223px;
+
       img {
         max-width: 630px;
       }
     }
+
     &__title {
       justify-content: center;
+
       h1 {
         font-size: 28px;
         font-weight: 600;
         line-height: 120%; /* 34.133px */
         letter-spacing: -0.711px;
       }
+
       svg {
         display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .pricing {
+    padding-top:  0;
+    &__price {
+      padding: 0 0 28px 26px;
+      justify-content: flex-start;
+      div {
+        display: none;
+
+        h2 {
+          font-size: 26px;
+        }
+        &:first-child {
+          display: flex;
+        }
+      }
+    }
+    &__core {
+      ul {
+        li {
+          font-size: 12px;
+          line-height: 17.295px; /* 145.455% */
+          div {
+            svg {
+              display: none;
+              &:first-child {
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+    &__title {
+        padding: 26px 0 17px 24px;
+      border-bottom: none;
+      div {
+        > span {
+          display: none;
+        }
+        &:first-child {
+          display: flex;
+        }
+        display: none;
+      }
+    }
+  }
+  .our-pricing {
+    &__title {
+      padding-bottom: 62px;
+    }
+
+    &__img {
+      overflow: hidden;
+      margin-top: -84px;
+
+      img {
+        margin-left: 124px;
+        max-width: 422px;
       }
     }
   }

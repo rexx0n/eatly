@@ -193,3 +193,32 @@
   }
 }
 }
+@media screen and (max-width: 1024px) {
+.product {
+  &__counter {
+    padding: 14px 16px 14px ;
+  }
+  &__input {
+    margin: 44px auto auto;
+    div {
+      padding: 14px 14px 14px 12px;
+      input {
+        font-size: 10.803px;
+        font-style: normal;
+        font-weight: 500;
+      }
+      svg {
+        max-width: 13px;
+      }
+    }
+  }
+  &__info {
+    span {
+      font-size: 13px;
+      span {
+        font-size: 10px;
+      }
+    }
+  }
+}
+}
