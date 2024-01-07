@@ -119,3 +119,37 @@
     }
   }
 }
+@media screen and (max-width: 1024px) {
+.contact {
+  flex-direction: column;
+  &__support {
+    h1 {
+      display: none;
+    }
+    form {
+      margin-top: 46px;
+      textarea {
+        margin-top: 38px;
+      }
+      input {
+        margin-bottom: 12px;
+        font-size: 10px;
+        line-height: 15.927px; /* 150% */
+        text-transform: uppercase;
+      }
+    }
+  }
+  &__title {
+    box-shadow: none;
+    h1 {
+      text-align: center;
+      padding: 10px;
+    }
+  }
+  &__just {
+    img {
+      display: none;
+    }
+  }
+}
+}

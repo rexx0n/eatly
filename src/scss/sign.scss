@@ -271,3 +271,18 @@
 
   }
 }
+@media screen and (max-width: 1024px) {
+.sign {
+  &__up {
+    justify-content: center;
+  }
+  &__form {
+    form {
+      padding-left: 30px;
+    }
+  }
+  &__illustration {
+    display: none;
+  }
+}
+}
